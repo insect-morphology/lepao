@@ -1,0 +1,8 @@
+id: lepao
+title: lepidoptera anatomy ontology
+github_org: luis-gonzalez-m
+repo: lepao
+import_group:
+ products:
+   - id: aism
+     mirror_from: https://raw.githubusercontent.com/insect-morphology/aism/master/aism.owl    
