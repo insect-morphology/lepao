@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/lepao
+
+idspace: LEPAO
+base_url: /obo/lepao
+
+products:
+- lepao.owl: https://raw.githubusercontent.com/luis-gonzalez-m/lepao/master/lepao.owl
+- lepao.obo: https://raw.githubusercontent.com/luis-gonzalez-m/lepao/master/lepao.obo
+
+term_browser: ontobee
+example_terms:
+- LEPAO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/luis-gonzalez-m/lepao/v
+
+- prefix: /tracker/
+  replacement: https://github.com/luis-gonzalez-m/lepao/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/LEPAO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/luis-gonzalez-m/lepao/master/
