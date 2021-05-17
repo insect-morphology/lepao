@@ -6,7 +6,7 @@ A resource managed by Luis A. González-Montaña and Markus Koch.
 # Lepidoptera Anatomy Ontology
 
 
-LepAO is developed by BIOfid (The Specialised Information Service Biodiversity Research).
+LEPAO is developed by BIOfid (The Specialised Information Service Biodiversity Research).
 
 
 
@@ -32,6 +32,6 @@ Please use this GitHub repository's [Issue tracker](https://github.com/luis-gonz
 
 ## Acknowledgements
 
-The development of LepAO is supported by the German Research Foundation (DFG-projcet MO 412/54-1).
+The development of LEPAO is supported by the German Research Foundation (DFG-projcet MO 412/54-1).
 
 This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
