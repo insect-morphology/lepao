@@ -1,9 +1,14 @@
 [![Build Status](https://travis-ci.org/luis-gonzalez-m/lepao.svg?branch=master)](https://travis-ci.org/luis-gonzalez-m/lepao)
 [![DOI](https://zenodo.org/badge/13996/luis-gonzalez-m/lepao.svg)](https://zenodo.org/badge/latestdoi/13996/luis-gonzalez-m/lepao)
 
-# lepidoptera anatomy ontology
+A resource managed by Luis A. González-Montaña and Markus Koch.
 
-This ontology... YOUR DESCRIPTION HERE
+# Lepidoptera Anatomy Ontology
+
+
+LepAO is developed by BIOfid (The Specialised Information Service Biodiversity Research).
+
+
 
 More information can be found at http://obofoundry.org/ontology/lepao
 
@@ -26,5 +31,7 @@ Editors of this ontology should use the edit version, [src/ontology/lepao-edit.o
 Please use this GitHub repository's [Issue tracker](https://github.com/luis-gonzalez-m/lepao/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
+
+The development of LepAO is supported by the German Research Foundation (DFG-projcet MO 412/54-1).
 
 This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
