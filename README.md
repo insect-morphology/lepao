@@ -3,7 +3,6 @@
 
 # Lepidoptera Anatomy Ontology
 
-The development of LepAO is supported by the German Research Foundation (DFG-projcet MO 412/54-1).
 
 LepAO is developed by BIOfid (The Specialised Information Service Biodiversity Research)
 
@@ -30,5 +29,7 @@ Editors of this ontology should use the edit version, [src/ontology/lepao-edit.o
 Please use this GitHub repository's [Issue tracker](https://github.com/luis-gonzalez-m/lepao/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
+
+The development of LepAO is supported by the German Research Foundation (DFG-projcet MO 412/54-1).
 
 This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
