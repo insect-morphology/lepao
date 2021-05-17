@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/luis-gonzalez-m/lepao.svg?branch=master)](https://travis-ci.org/luis-gonzalez-m/lepao)
 [![DOI](https://zenodo.org/badge/13996/luis-gonzalez-m/lepao.svg)](https://zenodo.org/badge/latestdoi/13996/luis-gonzalez-m/lepao)
 
+A resource managed by Luis A. González-Montaña and Markus Koch.
+
 # Lepidoptera Anatomy Ontology
 
 
