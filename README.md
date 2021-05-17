@@ -1,9 +1,13 @@
 [![Build Status](https://travis-ci.org/luis-gonzalez-m/lepao.svg?branch=master)](https://travis-ci.org/luis-gonzalez-m/lepao)
 [![DOI](https://zenodo.org/badge/13996/luis-gonzalez-m/lepao.svg)](https://zenodo.org/badge/latestdoi/13996/luis-gonzalez-m/lepao)
 
-# lepidoptera anatomy ontology
+# Lepidoptera Anatomy Ontology
 
-This ontology... YOUR DESCRIPTION HERE
+The development of LepAO is supported by the German Research Foundation (DFG-projcet MO 412/54-1).
+
+LepAO is developed by BIOfid (The Specialised Information Service Biodiversity Research)
+
+
 
 More information can be found at http://obofoundry.org/ontology/lepao
 
