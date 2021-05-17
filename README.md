@@ -4,7 +4,7 @@
 # Lepidoptera Anatomy Ontology
 
 
-LepAO is developed by BIOfid (The Specialised Information Service Biodiversity Research)
+LepAO is developed by BIOfid (The Specialised Information Service Biodiversity Research).
 
 
 
