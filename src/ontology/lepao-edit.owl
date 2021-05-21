@@ -11,9 +11,11 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<http://purl.obolibrary.org/obo/lepao.owl>
 Import(<http://purl.obolibrary.org/obo/lepao.owl>)
 Import(<http://purl.obolibrary.org/obo/lepao/imports/aism_import.owl>)
-Annotation(dce:description "None")
-Annotation(dce:title "lepidoptera anatomy ontology")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Annotation(dce:contributor "Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932"@en)
+Annotation(dce:contributor "Markus Koch (mjkoch)"@en)
+Annotation(dce:description "The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research."@en)
+Annotation(dce:title "Lepidoptera Anatomy Ontology"@en)
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_00000000>))
 
