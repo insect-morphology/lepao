@@ -27,7 +27,7 @@ Editors of this ontology should use the edit version, [src/ontology/lepao-edit.o
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/luis-gonzalez-m/lepao/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/insect-morphology/lepao/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
