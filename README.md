@@ -1,13 +1,12 @@
 [![Build Status](https://travis-ci.org/luis-gonzalez-m/lepao.svg?branch=master)](https://travis-ci.org/luis-gonzalez-m/lepao)
-[![DOI](https://zenodo.org/badge/13996/luis-gonzalez-m/lepao.svg)](https://zenodo.org/badge/latestdoi/13996/luis-gonzalez-m/lepao)
+[![DOI](https://zenodo.org/badge/330804917.svg)](https://zenodo.org/badge/latestdoi/330804917)
 
-A resource managed by Luis A. González-Montaña and Markus Koch.
+A resource managed by [Luis A. González-Montaña](https://github.com/luis-gonzalez-m) and [Markus Koch](https://github.com/mjklep).
 
-# Lepidoptera Anatomy Ontology
+# Lepidoptera Anatomy Ontology (LEPAO)
 
-
-LEPAO is developed by BIOfid (The Specialised Information Service Biodiversity Research).
-
+The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research.
+LEPAO is developed in part by BIOfid (The Specialised Information Service Biodiversity Research).
 
 
 More information can be found at http://obofoundry.org/ontology/lepao
@@ -34,4 +33,4 @@ Please use this GitHub repository's [Issue tracker](https://github.com/luis-gonz
 
 The development of LEPAO is supported by the German Research Foundation (DFG-projcet MO 412/54-1).
 
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+This ontology repository was created using the [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit)
