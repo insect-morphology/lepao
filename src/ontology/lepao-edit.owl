@@ -17,7 +17,36 @@ Annotation(dce:description "The Lepidoptera Anatomy Ontology contains terms used
 Annotation(dce:title "Lepidoptera Anatomy Ontology"@en)
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 
-Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_00000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000029>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 
 
@@ -25,9 +54,163 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#cre
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/LEPAO_00000000> (root node)
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000000> (root node)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_00000000> "root node"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000000> "root node"@en)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000001> (muscle tissue)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000001> "muscle tissue"@en)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000002> (visceral muscle tissue)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000002> "visceral muscle tissue"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000002> <http://purl.obolibrary.org/obo/LEPAO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000003> (cardiac muscle tissue)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000003> "cardiac muscle tissue"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000003> <http://purl.obolibrary.org/obo/LEPAO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000004> (cellular anatomical entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000004> "cellular anatomical entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000005> (myofilament)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000005> "myofilament"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000005> <http://purl.obolibrary.org/obo/LEPAO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000006> (anatomical entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000006> "anatomical entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000007> (immaterial anatomical entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000007> "immaterial anatomical entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000007> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000008> (material anatomical entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000008> "material anatomical entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000008> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000009> (skeletal musculature)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000009> "skeletal musculature"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000009> <http://purl.obolibrary.org/obo/LEPAO_0000008>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000010> (molecular entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000010> "molecular entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000010> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000011> (protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000011> "protein"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000011> <http://purl.obolibrary.org/obo/LEPAO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000012> (actin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000012> "actin"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000012> <http://purl.obolibrary.org/obo/LEPAO_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000013> (myosin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000013> "myosin"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000013> <http://purl.obolibrary.org/obo/LEPAO_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000014> (acellular anatomical structure)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000014> "acellular anatomical structure"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000014> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000015> (carbohydrate)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000015> "carbohydrate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000015> <http://purl.obolibrary.org/obo/LEPAO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000016> (chitin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000016> "chitin"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000016> <http://purl.obolibrary.org/obo/LEPAO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000017> (artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000017> "artery"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000017> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000018> (antennal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000018> "antennal artery"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000018> <http://purl.obolibrary.org/obo/LEPAO_0000021>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000019> (eye artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000019> "eye artery"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000019> <http://purl.obolibrary.org/obo/LEPAO_0000021>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000020> (vessel)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000020> "vessel"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000020> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000021> (cephalic vessel)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000021> "cephalic vessel"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000021> <http://purl.obolibrary.org/obo/LEPAO_0000020>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000022> (pulsatile organ)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000022> "pulsatile organ"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000022> <http://purl.obolibrary.org/obo/LEPAO_0000020>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000023> (mesoscutellar organ)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000023> "mesoscutellar organ"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000023> <http://purl.obolibrary.org/obo/LEPAO_0000022>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000024> (metascutellar organ)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000024> "metascutellar organ"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000024> <http://purl.obolibrary.org/obo/LEPAO_0000022>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000025> (frontal aortal sac)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000025> "frontal aortal sac"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000025> <http://purl.obolibrary.org/obo/LEPAO_0000022>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000026> (aorta)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000026> "aorta"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000026> <http://purl.obolibrary.org/obo/LEPAO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000027> (heart)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000027> "heart"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000027> <http://purl.obolibrary.org/obo/LEPAO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000028> (dorsal vessel)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000028> "dorsal vessel"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000028> <http://purl.obolibrary.org/obo/LEPAO_0000020>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000029> (ostium)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000029> "ostium"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000029> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001002> (cuticle)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp."@de) Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Distales nichtzelliges Produkt der Epidermis."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001002> "Kutikula"@de)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001002> <http://purl.obolibrary.org/obo/LEPAO_0000014>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001134> (skeletal muscle tissue)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp."@de) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001134> "Skelettmuskeln"@de)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001134> <http://purl.obolibrary.org/obo/LEPAO_0000001>)
 
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
@@ -177,8 +360,6 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Se
 Verlag, Stuttgart, New York: 332 pp."@de) Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Zwischen Tibia und Prätarsus gelegener Abschnitt der Extremität."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004169> "Tarsus"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp."@de) Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Besonders großes erstes Tarsalium mancher Insekten."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004188> "Metatarsus"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
-Verlag, Stuttgart, New York: 332 pp."@de) Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Distales nichtzelliges Produkt der Epidermis."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001002> "Kutikula"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
 https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM/AISM_0002019> "Suspensorium"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme

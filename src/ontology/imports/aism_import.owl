@@ -7147,40 +7147,6 @@ https://doi.org/10.1515/9783110264043
             </owl:Class>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004126"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000084"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004126"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000078"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000124"/>
@@ -7365,40 +7331,6 @@ https://doi.org/10.1515/9783110264043
             </owl:Class>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004127"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000084"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004127"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000078"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000125"/>
@@ -7548,40 +7480,6 @@ https://doi.org/10.1515/9783110264043
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000077"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004125"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000084"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004125"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -8158,55 +8056,6 @@ https://doi.org/10.1515/9783110264043
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000069"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000677"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004188"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:contributor>jgiron</dc:contributor>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000069"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000678"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000072"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:contributor>jgiron</dc:contributor>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000069"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The segment of a hind leg attached to the distal margin of the metafemur by the metafemoro-metatibial conjunctiva and to the proximal margin of the metatarsus by the metatibio-metatarsal conjunctiva.</owl:annotatedTarget>
-        <dc:contributor>jgiron</dc:contributor>
-        <oboInOwl:creation_date>2021-04-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000069"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000075"/>
         <dc:contributor>jgiron</dc:contributor>
     </owl:Axiom>
@@ -8253,6 +8102,55 @@ https://doi.org/10.1515/9783110264043
             </owl:Restriction>
         </owl:annotatedTarget>
         <dc:contributor>jgiron</dc:contributor>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000677"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004188"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron</dc:contributor>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000678"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000072"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron</dc:contributor>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The segment of a hind leg attached to the distal margin of the metafemur by the metafemoro-metatibial conjunctiva and to the proximal margin of the metatarsus by the metatibio-metatarsal conjunctiva.</owl:annotatedTarget>
+        <dc:contributor>jgiron</dc:contributor>
+        <oboInOwl:creation_date>2021-04-03</oboInOwl:creation_date>
     </owl:Axiom>
     
 
@@ -8488,34 +8386,6 @@ https://doi.org/10.1515/9783110264043
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000071"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000076"/>
-        <dc:contributor>jgiron</dc:contributor>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000071"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000078"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004180"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:contributor>jgiron</dc:contributor>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000071"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000079"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000124"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:contributor>jgiron</dc:contributor>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000071"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -8583,6 +8453,34 @@ https://doi.org/10.1515/9783110264043
         <owl:annotatedTarget xml:lang="en">The segment of a mid leg attached to the distal margin of the mesotrochanter by the mesotrochantero-mesofemoral conjunctiva and to the proximal margin of the mesotibia by the mesofemoro-mesotibial conjunctiva.</owl:annotatedTarget>
         <dc:contributor>jgiron</dc:contributor>
         <oboInOwl:creation_date>2021-03-18</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000071"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000076"/>
+        <dc:contributor>jgiron</dc:contributor>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000071"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000078"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004180"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron</dc:contributor>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000071"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000079"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000124"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron</dc:contributor>
     </owl:Axiom>
     
 
@@ -9256,40 +9154,6 @@ https://doi.org/10.1515/9783110264043
             </owl:Class>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000108"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000084"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000108"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000078"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004170"/>
@@ -9465,7 +9329,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/AISM_0000080 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
@@ -15858,40 +15722,6 @@ https://doi.org/10.1515/9783110264043
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000102"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000108"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000084"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000108"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -39901,6 +39731,12 @@ https://doi.org/10.1515/9783110264043
     
 
 
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000052">
@@ -40611,7 +40447,6 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/UBERON_0001134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001134">
-        <obo:IAO_0000115></obo:IAO_0000115>
         <obo:IAO_0000115>Muscle tissue that consists primarily of skeletal muscle fibers.</obo:IAO_0000115>
         <dc:contributor rdf:resource="https://github.com/RDruzinsky"/>
         <dc:contributor rdf:resource="https://github.com/cmungall"/>
@@ -41438,64 +41273,6 @@ https://doi.org/10.1515/9783110264043
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000113"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000079"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000113"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000080"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000113"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000080"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000115"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000115"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -42731,7 +42508,7 @@ posterior mandibular condyle&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/AISM/AISM_0002026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM/AISM_0002026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
@@ -42750,7 +42527,7 @@ posterior mandibular condyle&quot;</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM/AISM_0002026"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
         <dc:contributor>lagonzalezmo</dc:contributor>
     </owl:Axiom>
     <owl:Axiom>
@@ -45093,7 +44870,7 @@ seperated from above&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/AISM/AISM_0002061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM/AISM_0002061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
@@ -45112,7 +44889,7 @@ seperated from above&quot;</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM/AISM_0002061"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
         <dc:contributor>lagonzalezmo</dc:contributor>
     </owl:Axiom>
     <owl:Axiom>
@@ -45311,7 +45088,7 @@ seperated from above&quot;</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/AISM/AISM_0002065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM/AISM_0002065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -45324,7 +45101,7 @@ seperated from above&quot;</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM/AISM_0002065"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
         <rdfs:comment>lagonzalezmo</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -46741,7 +46518,7 @@ https://doi.org/10.1016/j.asd.2007.04.003</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/AISM/AISM_0002085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM/AISM_0002085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -46754,7 +46531,7 @@ https://doi.org/10.1016/j.asd.2007.04.003</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM/AISM_0002085"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
         <dc:contributor>lagonzalezmo</dc:contributor>
     </owl:Axiom>
     <owl:Axiom>
@@ -46977,5 +46754,5 @@ https://doi.org/10.1016/j.ode.2005.08.004</obo:AISM_0000171>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
