@@ -47,6 +47,24 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000048>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 
 
@@ -200,6 +218,97 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000028> <http://purl.obolibrar
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000029> "ostium"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000029> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
 
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000031> (galeal trachea)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000031> "galeal trachea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000031> <http://purl.obolibrary.org/obo/AISM_0000091>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000032> (tracheal system)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000032> "Trachealsystem"@de)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000032> "tracheal system"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000032> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000033> (ventral head trunk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000033> "ventral head trunk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000033> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000034> (labial palp trachea)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000034> "labial palp trachea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000034> <http://purl.obolibrary.org/obo/AISM_0000091>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000035> (antennal trachea)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000035> "antennal trachea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000035> <http://purl.obolibrary.org/obo/AISM_0000091>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000036> (frontal air sac)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000036> "frontal air sac"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000036> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000037> (optical air sac)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000037> "optical air sac"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000037> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000038> (dorsal head trunk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000038> "dorsal head trunk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000038> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000039> (lateral head trunk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000039> "lateral head trunk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000039> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000040> (leg trachea)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000040> "leg trachea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000040> <http://purl.obolibrary.org/obo/AISM_0000091>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000041> (longitudinal connecting trunk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000041> "longitudinal connecting trunk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000041> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000042> (flight muscle trunk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000042> "flight muscle trunk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000042> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000043> (dorsal air sac)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000043> "dorsal air sac"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000043> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000044> (dorsal tracheal trunk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000044> "dorsal tracheal trunk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000044> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000045> (cerebral trachea)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000045> "cerebral trachea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000045> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000046> (anterior tracheal trunk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000046> "anterior tracheal trunk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000046> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000047> (pleural tracheal trunk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000047> "pleural tracheal trunk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000047> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000048> (ventral tracheal trunk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000048> "ventral tracheal trunk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000048> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001002> (cuticle)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
@@ -286,6 +395,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Se
 Verlag, Stuttgart, New York: 332 pp."@de) Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Sklerotisierter Ringwulst der Kutikula um die Basis einer Seta."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000126> "Basalring"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp."@de) Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Hohle Ein- oder Ausstülpung des Integuments."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000138> "Apophyse"@de)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AISM_0000140> "By chitin-based composition, this structure is considered as elastic cuticle"@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp."@de) Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Furkaäste mit verbindender Sternacosta."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000144> "Furka"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
