@@ -47,6 +47,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000033>))
@@ -65,6 +66,34 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000046>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000076>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 
 
@@ -218,6 +247,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000028> <http://purl.obolibrar
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000029> "ostium"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000029> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
 
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000030> (subdivision of digestive tract)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000030> "subdivision of digestive tract"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000030> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000031> (galeal trachea)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000031> "galeal trachea"@en)
@@ -308,6 +342,161 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000047> <http://purl.obolibrar
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000048> "ventral tracheal trunk"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000048> <http://purl.obolibrary.org/obo/LEPAO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000049> (midgut)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000049> "Mitteldarm"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000049> "Ventriculus"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000049> "mesenteron"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000049> "midgut"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000049> <http://purl.obolibrary.org/obo/LEPAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000050> (foregut)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000050> "stomodeum"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000050> "foregut"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000051> (hindgut)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000051> "proctodeum"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000051> "hindgut"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000051> <http://purl.obolibrary.org/obo/LEPAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000052> (tissue)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000052> "tissue"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000052> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000053> (epithelium)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000053> "epithelium"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000053> <http://purl.obolibrary.org/obo/LEPAO_0000052>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000054> (stomodaeal epithelium)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000054> "stomodaeal epithelium"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000054> <http://purl.obolibrary.org/obo/LEPAO_0000053>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000055> (valve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000055> "valve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000055> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000056> (stomodaeal valve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000056> "stomodaeal valve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000056> <http://purl.obolibrary.org/obo/LEPAO_0000055>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000057> (ingluvies)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000057> "Kropf"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000057> "crop"@de)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000057> "ingluvies"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000057> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000058> (oesophagus)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000058> "Ösophagus"@de)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000058> "oesophagus"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000058> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000059> (pharynx)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000059> "Schlund"@de)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000059> "pharynx"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000059> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000060> (oesophageal valve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000060> "oesophageal valve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000060> <http://purl.obolibrary.org/obo/LEPAO_0000055>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000061> (layer)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/LEPAO_0000061> "layer is constitutive of membranes. This could be acellular as the chitin layer of tracheal wall or cellular as the epidermal cells"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000061> "layer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000061> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000062> (cell layer)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000062> "cell layer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000062> <http://purl.obolibrary.org/obo/LEPAO_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000063> (acellular layer)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000063> "acellular layer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000063> <http://purl.obolibrary.org/obo/LEPAO_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000064> (polysaccharides)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000064> "polysaccharides"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000064> <http://purl.obolibrary.org/obo/LEPAO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000065> (basal lamina)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000065> "basal lamina"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000065> <http://purl.obolibrary.org/obo/LEPAO_0000063>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000066> (reticular layer)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000066> "reticular layer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000066> <http://purl.obolibrary.org/obo/LEPAO_0000063>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000067> (collagen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000067> "collagen"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000067> <http://purl.obolibrary.org/obo/LEPAO_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000068> (peritrophins)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000068> "peritrophins"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000068> <http://purl.obolibrary.org/obo/LEPAO_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000069> (membrane)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000069> "membrane"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000069> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000070> (peritrophic membrane)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000070> "peritrophic membrane"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000070> <http://purl.obolibrary.org/obo/LEPAO_0000069>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000071> (basement membrane)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/LEPAO_0000071> "basement membrane located in the insect eye differs from basemente membrane located in the digestive epithelial"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000071> "basement membrane"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000071> <http://purl.obolibrary.org/obo/LEPAO_0000069>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000072> (neuron)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000072> "neuron"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000072> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000073> (ganglion)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000073> "ganglion"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000073> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000074> (thoracic ganglion)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000074> "thoracic ganglion"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000074> <http://purl.obolibrary.org/obo/LEPAO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000075> (abdominal ganglion)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000075> "abdominal ganglion"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000075> <http://purl.obolibrary.org/obo/LEPAO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000076> (suboesophageal ganglion)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000076> "suboesophageal ganglion"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000076> <http://purl.obolibrary.org/obo/LEPAO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000955> (brain)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000955> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001002> (cuticle)
 
