@@ -17,6 +17,8 @@ Annotation(dce:description "The Lepidoptera Anatomy Ontology contains terms used
 Annotation(dce:title "Lepidoptera Anatomy Ontology"@en)
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 
+Declaration(Class(<http://purl.obolibrary.org/obo/CLAO_0001538>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLAO_0001539>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000002>))
@@ -86,7 +88,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000066>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000068>))
-Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000072>))
@@ -100,6 +101,16 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#cre
 ############################
 #   Classes
 ############################
+
+# Class: <http://purl.obolibrary.org/obo/CLAO_0001538> (insect wing region)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLAO_0001538> "insect wing region"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/CLAO_0001538> <http://purl.obolibrary.org/obo/AISM_0000174>)
+
+# Class: <http://purl.obolibrary.org/obo/CLAO_0001539> (insect wing vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLAO_0001539> "insect wing vein"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/CLAO_0001539> <http://purl.obolibrary.org/obo/AISM_0000174>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000000> (root node)
 
@@ -435,6 +446,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000064> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000065> (basal lamina)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000065> "tunica propria"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000065> "basal lamina"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000065> <http://purl.obolibrary.org/obo/LEPAO_0000063>)
 
@@ -453,21 +465,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000067> <http://purl.obolibrar
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000068> "peritrophins"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000068> <http://purl.obolibrary.org/obo/LEPAO_0000011>)
 
-# Class: <http://purl.obolibrary.org/obo/LEPAO_0000069> (membrane)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000069> "membrane"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000069> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
-
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000070> (peritrophic membrane)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000070> "peritrophic membrane"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000070> <http://purl.obolibrary.org/obo/LEPAO_0000069>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000070> <http://purl.obolibrary.org/obo/LEPAO_0000063>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000071> (basement membrane)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/LEPAO_0000071> "basement membrane located in the insect eye differs from basemente membrane located in the digestive epithelial"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000071> "basement membrane"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000071> <http://purl.obolibrary.org/obo/LEPAO_0000069>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000071> <http://purl.obolibrary.org/obo/LEPAO_0000062>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000072> (neuron)
 

@@ -10026,14 +10026,8 @@ https://doi.org/10.1111/j.1096-3642.2001.tb02239.x
     <!-- http://purl.obolibrary.org/obo/AISM_0000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000007"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000136"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000140"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
@@ -10046,24 +10040,13 @@ https://doi.org/10.1111/j.1096-3642.2001.tb02239.x
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000091"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000007"/>
-        <dc:contributor>imiko</dc:contributor>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000091"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000136"/>
         <dc:contributor>imiko</dc:contributor>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000091"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000140"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000032"/>
         <dc:contributor>imiko</dc:contributor>
     </owl:Axiom>
     <owl:Axiom>
@@ -13782,7 +13765,7 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/AISM_0000140 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000140">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000158"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
@@ -13795,7 +13778,7 @@ https://doi.org/10.1515/9783110264043
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000140"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000158"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000032"/>
         <dc:contributor>imiko</dc:contributor>
     </owl:Axiom>
     <owl:Axiom>
@@ -39734,6 +39717,12 @@ https://doi.org/10.1515/9783110264043
     <!-- http://purl.obolibrary.org/obo/LEPAO_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000009"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000032"/>
     
 
 
