@@ -102,6 +102,25 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000083>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000084>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000085>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000087>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000088>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000089>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000091>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000095>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000096>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000097>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000098>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000099>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000103>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000104>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 
 
@@ -579,6 +598,101 @@ Verlag, Stuttgart, New York: 332 pp.
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000085> "rectum"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000085> <http://purl.obolibrary.org/obo/LEPAO_0000030>)
 
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000086> (nervous system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000086> "nervous system"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000086> <http://purl.obolibrary.org/obo/LEPAO_0000077>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000087> (protocerebrum)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000087> "protocerebrum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000087> <http://purl.obolibrary.org/obo/LEPAO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000088> (deutocerebrum)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000088> "deutocerebrum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000088> <http://purl.obolibrary.org/obo/LEPAO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000089> (tritocerebrum)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000089> "tritocerebrum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000089> <http://purl.obolibrary.org/obo/LEPAO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000090> (nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000090> "nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000090> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000091> (antennal nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000091> "antennal nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000091> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000092> (cervical nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000092> "cervical nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000092> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000093> (labro-frontal nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000093> "labro-frontal nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000093> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000094> (labial nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000094> "labial nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000094> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000095> (madibular nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000095> "madibular nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000095> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000096> (maxillary nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000096> "maxillary nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000096> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000097> (tegumentary nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000097> "tegumentary nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000097> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000098> (neurohemal system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000098> "neurohemal system"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000098> <http://purl.obolibrary.org/obo/LEPAO_0000077>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000099> (corpora allata)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000099> "corpora allata"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000099> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000100> (corpora cardiaca)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000100> "corpora cardiaca"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000100> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000101> (connective tissue)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000101> "connective tissue"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000101> <http://purl.obolibrary.org/obo/LEPAO_0000052>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000102> (cervico-thoracic connective)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000102> "cervico-thoracic connective"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000102> <http://purl.obolibrary.org/obo/LEPAO_0000101>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000103> (circumesophageal connective)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000103> "circumesophageal connective"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000103> <http://purl.obolibrary.org/obo/LEPAO_0000101>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000104> (tritocerebral commissure)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000104> "tritocerebral commissure"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000104> <http://purl.obolibrary.org/obo/LEPAO_0000101>)
+
 # Class: <http://purl.obolibrary.org/obo/UBERON_0000955> (brain)
 
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000955> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
@@ -616,8 +730,24 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Se
 Verlag, Stuttgart, New York: 332 pp.
 
 \"Geringfügig oder nicht skIerotisierter und daher biegsamer Kutikulabereich.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-10") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000004> "Membran"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Basaler Abschnitt des Coxopoditen der Maxille.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#created_by> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000018> "Cardo"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
 Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000019> "kopfkapsel"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Vom Stipes abgegliederte äußere Lade des Coxopoditen der Maxille.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-12") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000023> "Galea"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Telopodit des Labium.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000024> "Palpus labialis"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Vom Stipes abgegliederte innere Lade des Coxopoditen der Maxille.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000026> "Lacinia"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
 Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000032> "Antenne"@de)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000039> "Echtes Haar"@de)
@@ -625,24 +755,45 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Se
 Verlag, Stuttgart, New York: 332 pp.
 
 \" Von einer differenzierten Epidermiszelle oder deren Abkömmlingen abgeschiedener kutikularer Fortsatz, der stets in direktem Kontakt mit der Epidermis steht.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000039> "Seta"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000042> "Labrum"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000042> "Oberlippe"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
-Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000043> "Mandibel"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000043> "Oberkiefer"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Frontaler Bezirk der Kopfkapsel ventral von der Clypeolabralnaht.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000042> "Labrum"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000042> "Oberlippe"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Der Nahrungsaufnahme dienender Coxopodit der Extremität des vordersten Segments im Gnathocephalon.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000043> "Mandibel"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000043> "Oberkiefer"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
 Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Maxille"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Unterkiefer"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Der Nahrungsaufnahme dienende Extremität des mittleren Segments des Gnathocephalon.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Maxille"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Unterkiefer"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000047> "Kralle"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
 
 \"Mit Hafteinrichtungen versehenes terminales Glied des Arthropodiums.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000047> "Prätarsus"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Vom Prämentum abgegliederte innere Lade des Coxopoditen des Labium.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000049> "Glossa"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Vom Prämentum abgegliederte äußere Lade der Coxopoditen des Labium.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000050> "Paraglossa"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Telopodit der Maxille.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000051> "Palpus maxillaris"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Tergum des Prothorax.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000059> "Pronotum"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Jaenicke, B., & Mey, W. (2011). Revision der Eoophyla ceratucha-Gruppe und ihre Verbreitung in Südostasien 
 (Lepidoptera, Pyraloidea, Crambidae: Acentropinae). Beiträge zur Entomologie= Contributions to Entomology, 61(1), 3-87."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000064> "Mesocoxa"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Jaenicke, B., & Mey, W. (2011). Revision der Eoophyla ceratucha-Gruppe und ihre Verbreitung in Südostasien 
@@ -665,16 +816,24 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Se
 Verlag, Stuttgart, New York: 332 pp."@de) Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Basales hohlzylindrisches Glied des Arthropodiums."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000077> "Coxa"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000077> "Hüfte"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000087> "Unterlippe"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000093> "Hypopharynx"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Den Präoralraum kaudal abschließende, basal miteinander verschmolzene Extremitäten des hinteren Segments des Gnathocephalon.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000087> "Labium"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000087> "Unterlippe"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Postorale mediane Bildung des Präoralraumdaches.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000093> "Hypopharynx"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000093> "Lingua"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
 Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo"@de) Annotation(<http://www.geneontology.org/formats/oboInOwl#created_by> "2021-06-23"@de) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000098> "Cervikalmembran"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp."@de) Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Membranöse Hals- oder Nackenhaut zwischen Kopfkapsel und Prothorax."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000098> "Cervix"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000105> "Epipharynx"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Dem Präoralraum zugekehrte Innenfläche des Clypeolabrum.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000105> "Epipharynx"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
 https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000107> "Caput"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
@@ -685,10 +844,18 @@ Verlag, Stuttgart, New York: 332 pp.
 \" Aus drei Metameren zusammengesetztes Tagma zwischen Kopf und Abdomen.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000108> "Thorax"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
 https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000109> "Abdomen"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000113> "Scapus"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000115> "Pedicellus"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Zweiter Abschnitt des Coxopoditen der Maxille.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000111> "Stipes"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Basales Glied der Geißelantenne.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000113> "Scapus"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Zweites Glied der Geißelantenne.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000115> "Pedicellus"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
 
@@ -712,50 +879,94 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Se
 Verlag, Stuttgart, New York: 332 pp.
 
 \"Furkaäste mit verbindender Sternacosta.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000144> "Furka"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000159> "Salivarium"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Kaudal vom Hypopharynx befindlicher Teil des Präoralraums mit der Mündung der Labialdrüsen.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000159> "Salivarium"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
 
 \"Solide kutikulare Einstülpung des Integuments, die als Muskelinsertion dient.\""@de) Annotation(dce:contributor "lagonzalezmo"@de) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02"@de) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000188> "Apodem"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000191> "Tentorium"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Endoskelettale Verstrebung der Kopfkapsel.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000191> "Tentorium"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
 
 \" Gratförmiges, als tiefe Falte angelegtes Apodem.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-10") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0002048> "Phragma"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
-Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo"@de) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23"@de) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004019> "Clypeus"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004020> "Frons"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo"@de) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004020> "Stirnfläche"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Gesondertes Sklerit des Stipes an der Basis des Palpus maxillaris.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004001> "Palpifer"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Basaler Abschnitt der Coxopoditen des Labium.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004003> "Postmentum"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Distale Skleritplatte des Postmentum, wenn diesem zwei Sklerite aufgelagert sind.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004004> "Mentum"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Basale Skleritplatte des Postmentum, wenn diesem zwei Sklerite aufgelagert sind.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004005> "Submentum"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Gesondertes Sklerit des Prämentum an der Basis des Palpus labialis.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004006> "Palpiger"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Frontaler Bezirk der Kopfkapsel zwischen Epistomalnaht und Clypeolabralnaht.\""@de) Annotation(dce:contributor "lagonzalezmo"@de) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23"@de) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004019> "Clypeus"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Die Stirnpartie der Kopfkapsel.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004020> "Frons"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004020> "Stirnfläche"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
 https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004021> "Postoccipitalleiste"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004023> "Foramen occipitale"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Öffnung der Kopfkapsel gegen den Thorax.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004023> "Foramen occipitale"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
 https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004023> "Hinterhauptsloch"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
 https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004025> "Scheitelfläche"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004025> "Vertex"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004026> "Gena"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004026> "Wangenbereiche"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Die Scheitelpartie der Kopfkapsel.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004025> "Vertex"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Die Seitenpartie der Kopfkapsel.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004026> "Gena"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004026> "Wangenbereiche"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Sklerit der Kopfkapsel zwischen Subgenalnaht und Mundgliedmaßen.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#created_by> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004027> "Subgena"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
 https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004029> "Frontalnähte"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
 https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004030> "Coronalnaht"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
 https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004035> "Gula"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004042> "Postgena"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Bereich der Kopfkapselseite zwischen Occipital- und Postoccipitalnaht.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004042> "Postgena"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
 https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004045> "Postocciput"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2"@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004051> "Clypeolabrum"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Occipital vom Pleurostoma gelegener Teil der Subgena.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#created_by> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004046> "Hypostoma"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Ventral von der Epistomalnaht gelegener frontaler Teil der Kopfkapsel.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004051> "Clypeolabrum"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
 
@@ -771,6 +982,26 @@ Verlag, Stuttgart, New York: 332 pp.
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
 
+\" Tergum des 11. Abdominalsegments.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004060> "Epiprokt"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Einer Sternumhälfte des 11. Abdominalsegments entsprechendes Sklerit.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004061> "Paraprokt"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Aus den Mesomeren der Phallusanlage entstandenes rohrförmiges Begattungsorgan.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004062> "Aedeagus"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Blindsackartiger Anhang der Vagina, der bei der Kopulation den Aedeagus aufnimmt.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004067> "Bursa copulatrix"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Der Eiablage dienende röhrenförmige Bildungen der weiblichen Genitalsegmente.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004077> "Ovipositor"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
 \" Vorderes Metamer des Thorax.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004125> "Prothorax"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
 Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo"@de) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05"@de) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004125> "Thorakalsegmente I"@de)
@@ -778,8 +1009,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Se
 Verlag, Stuttgart, New York: 332 pp.
 
 \"Mittleres Metamer des Thorax.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004126> "Mesothorax"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
-Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-07-05") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004126> "Thorakalsegmente II"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004126> "Thorakalsegmente II"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
 
@@ -804,7 +1034,23 @@ Verlag, Stuttgart, New York: 332 pp."@de) Annotation(<http://purl.obolibrary.org
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
 
+\" Kaudaler Abschnitt des Notum, der sich lateral nicht in die Flügel fortsetzt.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004143> "Postnotum"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Durch die V-Naht abgeteilter frontaler Abschnitt des Alinotum.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004145> "Scutum"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Durch die V-Naht abgeteilter kaudaler Abschnitt des Alinotum.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004146> "Scutellum"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
 \" Unpaare mediane, zapfenförmige Umbildung der Antecosta im thorakalen Sternalbereich.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004163> "Spina"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Abschnitt des Thorax, dessen Metameren Flügel tragen.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004166> "Pterothorax"@de)
 AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004168> "Schenkelring"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
