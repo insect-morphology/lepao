@@ -1,13 +1,724 @@
 format-version: 1.2
-data-version: lepao/releases/2021-05-21/lepao-base.owl
+data-version: lepao/releases/2021-11-17/lepao-base.owl
 ontology: lepao/lepao-base
-property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
-property_value: http://purl.org/dc/elements/1.1/title "lepidoptera anatomy ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "Markus Koch (mjkoch)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research." xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Lepidoptera Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
-property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
-property_value: owl:versionInfo "2021-05-21" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
+property_value: owl:versionInfo "2021-11-17" xsd:string
 
 [Term]
-id: LEPAO:00000000
+id: AISM:0000091
+synonym: "Trachee" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\"Röhrenförmige, sich ständig aufzweigende und verjüngende Einstülpung des Integuments, die dem Gasaustausch dient.\"", creation_date="2021-09-10", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+
+[Term]
+id: LEPAO:0000000
 name: root node
+
+[Term]
+id: LEPAO:0000001
+name: muscle tissue
+
+[Term]
+id: LEPAO:0000002
+name: visceral muscle tissue
+is_a: LEPAO:0000001 ! muscle tissue
+
+[Term]
+id: LEPAO:0000003
+name: cardiac muscle tissue
+is_a: LEPAO:0000001 ! muscle tissue
+
+[Term]
+id: LEPAO:0000004
+name: cellular anatomical entity
+
+[Term]
+id: LEPAO:0000005
+name: myofilament
+is_a: LEPAO:0000004 ! cellular anatomical entity
+
+[Term]
+id: LEPAO:0000006
+name: anatomical entity
+
+[Term]
+id: LEPAO:0000007
+name: immaterial anatomical entity
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000008
+name: material anatomical entity
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000009
+name: skeletal musculature
+is_a: LEPAO:0000008 ! material anatomical entity
+
+[Term]
+id: LEPAO:0000010
+name: molecular entity
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000011
+name: protein
+is_a: LEPAO:0000010 ! molecular entity
+
+[Term]
+id: LEPAO:0000012
+name: actin
+is_a: LEPAO:0000011 ! protein
+
+[Term]
+id: LEPAO:0000013
+name: myosin
+is_a: LEPAO:0000011 ! protein
+
+[Term]
+id: LEPAO:0000014
+name: acellular anatomical structure
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000015
+name: carbohydrate
+is_a: LEPAO:0000010 ! molecular entity
+
+[Term]
+id: LEPAO:0000016
+name: chitin
+is_a: LEPAO:0000015 ! carbohydrate
+
+[Term]
+id: LEPAO:0000017
+name: artery
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000018
+name: antennal artery
+is_a: LEPAO:0000021 ! cephalic vessel
+
+[Term]
+id: LEPAO:0000019
+name: eye artery
+is_a: LEPAO:0000021 ! cephalic vessel
+
+[Term]
+id: LEPAO:0000020
+name: vessel
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000021
+name: cephalic vessel
+is_a: LEPAO:0000020 ! vessel
+
+[Term]
+id: LEPAO:0000022
+name: pulsatile organ
+is_a: LEPAO:0000020 ! vessel
+
+[Term]
+id: LEPAO:0000023
+name: mesoscutellar organ
+is_a: LEPAO:0000022 ! pulsatile organ
+
+[Term]
+id: LEPAO:0000024
+name: metascutellar organ
+is_a: LEPAO:0000022 ! pulsatile organ
+
+[Term]
+id: LEPAO:0000025
+name: frontal aortal sac
+is_a: LEPAO:0000022 ! pulsatile organ
+
+[Term]
+id: LEPAO:0000026
+name: aorta
+synonym: "Aorta" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\"Vorderer Abschnitt des Dorsalgefäßes ohne Ostien und ohne ansetzende Flügelmuskeln.\"", creation_date="2021-09-10", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+is_a: LEPAO:0000028 ! dorsal vessel
+
+[Term]
+id: LEPAO:0000027
+name: heart
+is_a: LEPAO:0000028 ! dorsal vessel
+
+[Term]
+id: LEPAO:0000028
+name: dorsal vessel
+is_a: LEPAO:0000020 ! vessel
+
+[Term]
+id: LEPAO:0000029
+name: ostium
+synonym: "Ostium" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\" Im Herz metamerer, paariger, lateraler oder terminaler, in Antennenherzen unpaarer Spalt, der der Hämolymphe den Durchtritt meist nur in einer Richtung gestattet.\"", creation_date="2021-09-10", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000030
+name: subdivision of digestive tract
+def: "A proximal-distal subdivision of the digestive tract." [] {creation_date="2021-09-10", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000031
+name: galeal trachea
+is_a: AISM:0000091
+
+[Term]
+id: LEPAO:0000032
+name: tracheal system
+synonym: "Trachealsystem" EXACT []
+is_a: LEPAO:0000077 ! anatomical system
+
+[Term]
+id: LEPAO:0000033
+name: ventral head trunk
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000034
+name: labial palp trachea
+is_a: AISM:0000091
+
+[Term]
+id: LEPAO:0000035
+name: antennal trachea
+is_a: AISM:0000091
+
+[Term]
+id: LEPAO:0000036
+name: frontal air sac
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000037
+name: optical air sac
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000038
+name: dorsal head trunk
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000039
+name: lateral head trunk
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000040
+name: leg trachea
+is_a: AISM:0000091
+
+[Term]
+id: LEPAO:0000041
+name: longitudinal connecting trunk
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000042
+name: flight muscle trunk
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000043
+name: dorsal air sac
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000044
+name: dorsal tracheal trunk
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000045
+name: cerebral trachea
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000046
+name: anterior tracheal trunk
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000047
+name: pleural tracheal trunk
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000048
+name: ventral tracheal trunk
+is_a: LEPAO:0000032 ! tracheal system
+
+[Term]
+id: LEPAO:0000049
+name: midgut
+synonym: "mesenteron" EXACT []
+synonym: "Mitteldarm" EXACT []
+synonym: "Ventriculus" EXACT []
+is_a: LEPAO:0000030 ! subdivision of digestive tract
+
+[Term]
+id: LEPAO:0000050
+name: foregut
+synonym: "stomodeum" EXACT []
+is_a: LEPAO:0000030 ! subdivision of digestive tract
+
+[Term]
+id: LEPAO:0000051
+name: hindgut
+synonym: "proctodeum" EXACT []
+is_a: LEPAO:0000030 ! subdivision of digestive tract
+
+[Term]
+id: LEPAO:0000052
+name: tissue
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000053
+name: epithelium
+is_a: LEPAO:0000052 ! tissue
+
+[Term]
+id: LEPAO:0000054
+name: stomodaeal epithelium
+is_a: LEPAO:0000053 ! epithelium
+
+[Term]
+id: LEPAO:0000055
+name: valve
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000056
+name: stomodaeal valve
+is_a: LEPAO:0000055 ! valve
+
+[Term]
+id: LEPAO:0000057
+name: ingluvies
+synonym: "crop" EXACT []
+synonym: "Kropf" EXACT []
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000058
+name: oesophagus
+synonym: "Ösophagus" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\"Röhrenförmiger Abschnitt des Vorderdarms zwischen Pharynx und Ingluvies.\"", creation_date="2021-09-10", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+is_a: LEPAO:0000030 ! subdivision of digestive tract
+
+[Term]
+id: LEPAO:0000059
+name: pharynx
+synonym: "Pharynx" EXACT [] {creation_date="2021-09-10", http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\"Vorderdarmabschnitt zwischen Mundöffnung und Ösophagus.\"", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+synonym: "Schlund" EXACT []
+is_a: LEPAO:0000030 ! subdivision of digestive tract
+
+[Term]
+id: LEPAO:0000060
+name: oesophageal valve
+is_a: LEPAO:0000055 ! valve
+
+[Term]
+id: LEPAO:0000061
+name: layer
+comment: layer is constitutive of membranes. This could be acellular as the chitin layer of tracheal wall or cellular as the epidermal cells
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000062
+name: cell layer
+is_a: LEPAO:0000061 ! layer
+
+[Term]
+id: LEPAO:0000063
+name: acellular layer
+is_a: LEPAO:0000061 ! layer
+
+[Term]
+id: LEPAO:0000064
+name: polysaccharides
+is_a: LEPAO:0000015 ! carbohydrate
+
+[Term]
+id: LEPAO:0000065
+name: basal lamina
+synonym: "tunica propria" EXACT []
+is_a: LEPAO:0000063 ! acellular layer
+
+[Term]
+id: LEPAO:0000066
+name: reticular layer
+is_a: LEPAO:0000063 ! acellular layer
+
+[Term]
+id: LEPAO:0000067
+name: collagen
+is_a: LEPAO:0000011 ! protein
+
+[Term]
+id: LEPAO:0000068
+name: peritrophins
+is_a: LEPAO:0000011 ! protein
+
+[Term]
+id: LEPAO:0000070
+name: peritrophic membrane
+is_a: LEPAO:0000063 ! acellular layer
+
+[Term]
+id: LEPAO:0000071
+name: basement membrane
+comment: basement membrane located in the insect eye differs from basemente membrane located in the digestive epithelial
+is_a: LEPAO:0000062 ! cell layer
+
+[Term]
+id: LEPAO:0000072
+name: neuron
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000073
+name: ganglion
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000074
+name: thoracic ganglion
+is_a: LEPAO:0000073 ! ganglion
+
+[Term]
+id: LEPAO:0000075
+name: abdominal ganglion
+is_a: LEPAO:0000073 ! ganglion
+
+[Term]
+id: LEPAO:0000076
+name: suboesophageal ganglion
+is_a: LEPAO:0000073 ! ganglion
+
+[Term]
+id: LEPAO:0000077
+name: anatomical system
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000078
+name: integumental system
+def: "Connected anatomical system that forms a barrier between an animal and its environment. In vertebrates, the integumental system consists of the epidermis, dermis plus associated glands and adnexa such as hair and scales. In invertebrates, the integumental system may include cuticle." []
+is_a: LEPAO:0000077 ! anatomical system
+
+[Term]
+id: LEPAO:0000079
+name: organ system subdivision
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000080
+name: epidermis
+synonym: "Epidermis" EXACT [] {creation_date="2021-09-10", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo", http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\" Das aus dem Ektoderm hervorgegangene, einschichtige Oberflächenepithel.\""}
+is_a: LEPAO:0000053 ! epithelium
+
+[Term]
+id: LEPAO:0000081
+name: endocuticle
+is_a: UBERON:0001002
+
+[Term]
+id: LEPAO:0000082
+name: epicuticle
+is_a: UBERON:0001002
+
+[Term]
+id: LEPAO:0000083
+name: exocuticle
+is_a: UBERON:0001002
+
+[Term]
+id: LEPAO:0000084
+name: procuticle
+synonym: "Prokutikula" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\" In erster Linie aus Chitin und aus wasserlöslichem Protein bestehende, geschichtete, nicht sklerotisierte Kutikula.\"", creation_date="2021-09-10", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+is_a: UBERON:0001002
+
+[Term]
+id: LEPAO:0000085
+name: rectum
+synonym: "Rectum" EXACT [] {creation_date="2021-09-10", http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\" Der kaudale Abschnitt des Hinterdarms zwischen Colon und After.\"", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+is_a: LEPAO:0000030 ! subdivision of digestive tract
+
+[Term]
+id: LEPAO:0000086
+name: nervous system
+is_a: LEPAO:0000077 ! anatomical system
+
+[Term]
+id: LEPAO:0000087
+name: protocerebrum
+synonym: "protocerebral neuromere" EXACT []
+is_a: LEPAO:0000110 ! neuromere
+relationship: BFO:0000050 LEPAO:0000108 ! cerebral ganglion
+
+[Term]
+id: LEPAO:0000088
+name: deutocerebrum
+synonym: "deutocerebral neuromere" EXACT []
+is_a: LEPAO:0000110 ! neuromere
+relationship: BFO:0000050 LEPAO:0000108 ! cerebral ganglion
+
+[Term]
+id: LEPAO:0000089
+name: tritocerebrum
+synonym: "tritocerebral neuromere" EXACT []
+is_a: LEPAO:0000110 ! neuromere
+relationship: BFO:0000050 LEPAO:0000108 ! cerebral ganglion
+
+[Term]
+id: LEPAO:0000090
+name: nerve
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000091
+name: antennal nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000092
+name: cervical nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000093
+name: labro-frontal nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000094
+name: labial nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000095
+name: madibular nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000096
+name: maxillary nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000097
+name: tegumentary nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000098
+name: neurohemal system
+is_a: LEPAO:0000077 ! anatomical system
+
+[Term]
+id: LEPAO:0000099
+name: corpora allata
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000100
+name: corpora cardiaca
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000101
+name: connective tissue
+is_a: LEPAO:0000052 ! tissue
+
+[Term]
+id: LEPAO:0000102
+name: cervico-thoracic connective
+is_a: LEPAO:0000114 ! connective
+
+[Term]
+id: LEPAO:0000103
+name: circumesophageal connective
+is_a: LEPAO:0000114 ! connective
+
+[Term]
+id: LEPAO:0000104
+name: tritocerebral commissure
+is_a: LEPAO:0000113 ! commissure
+
+[Term]
+id: LEPAO:0000105
+name: neuropil
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000106
+name: Synapse-rich neuropil
+is_a: LEPAO:0000105 ! neuropil
+
+[Term]
+id: LEPAO:0000107
+name: fiber-bundle neuropil
+is_a: LEPAO:0000105 ! neuropil
+
+[Term]
+id: LEPAO:0000108
+name: cerebral ganglion
+is_a: LEPAO:0000073 ! ganglion
+relationship: BFO:0000050 UBERON:0000955
+
+[Term]
+id: LEPAO:0000109
+name: gnathal ganglion
+is_a: LEPAO:0000073 ! ganglion
+
+[Term]
+id: LEPAO:0000110
+name: neuromere
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: LEPAO:0000111
+name: optic lobe
+is_a: LEPAO:0000106 ! Synapse-rich neuropil
+
+[Term]
+id: LEPAO:0000112
+name: antennal lobe
+is_a: LEPAO:0000106 ! Synapse-rich neuropil
+relationship: BFO:0000050 LEPAO:0000088 ! deutocerebrum
+
+[Term]
+id: LEPAO:0000113
+name: commissure
+is_a: LEPAO:0000107 ! fiber-bundle neuropil
+
+[Term]
+id: LEPAO:0000114
+name: connective
+comment: This term differs from connective tissue, which is a tissue composed by chitin.
+is_a: LEPAO:0000107 ! fiber-bundle neuropil
+
+[Term]
+id: LEPAO:0000115
+name: labial neuromere
+is_a: LEPAO:0000110 ! neuromere
+relationship: BFO:0000050 LEPAO:0000109 ! gnathal ganglion
+
+[Term]
+id: LEPAO:0000116
+name: maxillary neuromere
+is_a: LEPAO:0000110 ! neuromere
+relationship: BFO:0000050 LEPAO:0000109 ! gnathal ganglion
+
+[Term]
+id: LEPAO:0000117
+name: mandibular neuromere
+is_a: LEPAO:0000110 ! neuromere
+relationship: BFO:0000050 LEPAO:0000109 ! gnathal ganglion
+
+[Term]
+id: LEPAO:0000118
+name: abdominal neuromere
+is_a: LEPAO:0000110 ! neuromere
+
+[Term]
+id: LEPAO:0000119
+name: abdominal neuromere 1
+is_a: LEPAO:0000118 ! abdominal neuromere
+
+[Term]
+id: LEPAO:0000120
+name: abdominal neuromere 2
+is_a: LEPAO:0000118 ! abdominal neuromere
+
+[Term]
+id: LEPAO:0000121
+name: abdominal neuromere 3
+is_a: LEPAO:0000118 ! abdominal neuromere
+
+[Term]
+id: LEPAO:0000122
+name: abdominal neuromere 4
+is_a: LEPAO:0000118 ! abdominal neuromere
+
+[Term]
+id: LEPAO:0000123
+name: abdominal neuromere 5
+is_a: LEPAO:0000118 ! abdominal neuromere
+
+[Term]
+id: LEPAO:0000124
+name: abdominal neuromere 6
+is_a: LEPAO:0000118 ! abdominal neuromere
+
+[Term]
+id: LEPAO:0000125
+name: abdominal neuromere 7
+is_a: LEPAO:0000118 ! abdominal neuromere
+
+[Term]
+id: LEPAO:0000126
+name: abdominal ganglion 1
+is_a: LEPAO:0000075 ! abdominal ganglion
+
+[Term]
+id: LEPAO:0000127
+name: abdominal ganglion 2
+is_a: LEPAO:0000075 ! abdominal ganglion
+
+[Term]
+id: LEPAO:0000128
+name: abdominal ganglion 3
+is_a: LEPAO:0000075 ! abdominal ganglion
+
+[Term]
+id: LEPAO:0000129
+name: abdominal ganglion 4
+is_a: LEPAO:0000075 ! abdominal ganglion
+
+[Term]
+id: LEPAO:0000130
+name: abdominal ganglion 5
+is_a: LEPAO:0000075 ! abdominal ganglion
+
+[Term]
+id: LEPAO:0000131
+name: abdominal ganglion 6
+is_a: LEPAO:0000075 ! abdominal ganglion
+
+[Term]
+id: LEPAO:0000132
+name: abdominal ganglion 7
+is_a: LEPAO:0000075 ! abdominal ganglion
+
+[Term]
+id: UBERON:0000955
+comment: This term is considered as a synonym of cephalic ganglia, however, brain is generalizable term.
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: UBERON:0001002
+synonym: "Kutikula" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\"  Distales nichtzelliges Produkt der Epidermis.\"", creation_date="2021-08-02", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+is_a: LEPAO:0000014 ! acellular anatomical structure
+
+[Term]
+id: UBERON:0001134
+synonym: "Skelettmuskeln" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp."}
+is_a: LEPAO:0000001 ! muscle tissue
+
+[Term]
+id: UBERON:6007284
+synonym: "Integument" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\"Die Epidermis mit ihren distalen und proximalen nichtzelligen Bildungen sowie akzessorische Zellen des Mixocöl.\"", creation_date="2021-09-10", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+is_a: LEPAO:0000079 ! organ system subdivision
 
