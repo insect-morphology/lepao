@@ -11,14 +11,14 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/lepao/lepao-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/lepao/releases/2021-11-17/lepao-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/lepao/releases/2021-11-20/lepao-base.owl"/>
         <dc:contributor xml:lang="en">Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932</dc:contributor>
         <dc:contributor xml:lang="en">Markus Koch (mjkoch)</dc:contributor>
         <dc:description xml:lang="en">The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research.</dc:description>
         <dc:title xml:lang="en">Lepidoptera Anatomy Ontology</dc:title>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-11-17</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-11-20</owl:versionInfo>
     </owl:Ontology>
     
 
