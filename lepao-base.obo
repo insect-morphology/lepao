@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: lepao/releases/2021-11-17/lepao-base.owl
+data-version: lepao/releases/2021-11-20/lepao-base.owl
 ontology: lepao/lepao-base
 property_value: http://purl.org/dc/elements/1.1/contributor "Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Markus Koch (mjkoch)" xsd:string
@@ -7,7 +7,7 @@ property_value: http://purl.org/dc/elements/1.1/description "The Lepidoptera Ana
 property_value: http://purl.org/dc/elements/1.1/title "Lepidoptera Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2021-11-17" xsd:string
+property_value: owl:versionInfo "2021-11-20" xsd:string
 
 [Term]
 id: AISM:0000091
