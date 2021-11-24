@@ -21,6 +21,8 @@ The latest version of the ontology can always be found at:
 http://purl.obolibrary.org/obo/lepao.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
+This ontology has been submitted for OBO Foundry review November 21, 2021 (https://github.com/OBOFoundry/OBOFoundry.github.io/issues/1669).
+
 
 ### Editors' version
 
