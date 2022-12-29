@@ -5,8 +5,7 @@ A resource managed by [Luis A. González-Montaña](https://github.com/luis-gonza
 
 # Lepidoptera Anatomy Ontology (LEPAO)
 
-The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research.
-LEPAO is developed in part by BIOfid (The Specialised Information Service Biodiversity Research).
+The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research. LEPAO is developed in part by BIOfid (The Specialised Information Service Biodiversity Research), www.biofid.de. 
 
 **Suggested citation:** González-Montaña, L. A. & Koch, M, 2021. Lepidoptera Anatomy Ontology (LEPAO) (Version v2021-11-20). GitHub repository. http://doi.org/10.5281/zenodo.4780615.
 
