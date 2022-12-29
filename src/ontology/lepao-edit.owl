@@ -11,11 +11,19 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<http://purl.obolibrary.org/obo/lepao.owl>
 Import(<http://purl.obolibrary.org/obo/lepao.owl>)
 Import(<http://purl.obolibrary.org/obo/lepao/imports/aism_import.owl>)
+Annotation(<http://purl.obolibrary.org/obo/CLAO_0001602> "lepao"@en)
+Annotation(dce:contributor <https://www.biofid.de>)
 Annotation(dce:contributor "Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932"@en)
 Annotation(dce:contributor "Markus Koch (mjkoch)"@en)
 Annotation(dce:description "The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research."@en)
+Annotation(dce:publisher <https://github.com/FID-Biodiversity>)
+Annotation(dce:relation <http://www.obofoundry.org/ontology/aism.html>)
+Annotation(dce:relation <http://www.obofoundry.org/ontology/hao.html>)
 Annotation(dce:title "Lepidoptera Anatomy Ontology"@en)
+Annotation(dcterms:bibliographicCitation "Markus Koch (2021) Lepidoptera Anatomy Ontology. Version LepAO-vBIOfid-2020. Available from https://github.com/FID-Biodiversity/Ontologies"@en)
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(rdfs:comment "The development of LEPAO is supported by the German Research Foundation (DFG grant MO 412/54-1). LEPAO was developed within the framework of the DFG-funded Specialised Information Service Biodiversity Research (BIOfid) in cooperation with the organisation insect-morphology (https://github.com/insect-morphology). This version is further developed by the team of insect-morphology with the Ontology Development Kit for implementation in the ontology for the Anatomy of the Insect SkeletonMuscular system (AISM, https://github.com/insect-morphology/aism)."@en)
+Annotation(owl:versionInfo "2022-12-29"@en)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000001>))
@@ -149,7 +157,19 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000129>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000130>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000131>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000132>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLAO_0001602>))
+Declaration(AnnotationProperty(dce:publisher))
+Declaration(AnnotationProperty(dce:relation))
+Declaration(AnnotationProperty(dcterms:bibliographicCitation))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/CLAO_0001602> (default-namespace)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLAO_0001602> "default-namespace"@en)
+
 
 
 
