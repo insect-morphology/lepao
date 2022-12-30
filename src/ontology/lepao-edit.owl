@@ -157,6 +157,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000129>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000130>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000131>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000132>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000133>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000134>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000135>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000136>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLAO_0001602>))
 Declaration(AnnotationProperty(dce:publisher))
 Declaration(AnnotationProperty(dce:relation))
@@ -176,6 +180,23 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLAO_0001602> "de
 ############################
 #   Classes
 ############################
+
+# Class: <http://purl.obolibrary.org/obo/AISM_0000023> (galea)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\"Vom Stipes abgegliederte äußere Lade des Coxopoditen der Maxille.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-12") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000023> "Galea"@de)
+
+# Class: <http://purl.obolibrary.org/obo/AISM_0000044> (insect maxilla)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
+Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Maxille"@de)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+\" Der Nahrungsaufnahme dienende Extremität des mittleren Segments des Gnathocephalon.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Maxille"@de)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Unterkiefer"@de)
 
 # Class: <http://purl.obolibrary.org/obo/AISM_0000091> (trachea)
 
@@ -894,6 +915,28 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000131> <http://purl.obolibrar
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000132> "abdominal ganglion 7"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000132> <http://purl.obolibrary.org/obo/LEPAO_0000075>)
 
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000133> (subgalea)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000133> "subgalea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000133> <http://purl.obolibrary.org/obo/AISM_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000134> (distigalea)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000134> "distigalea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000134> <http://purl.obolibrary.org/obo/AISM_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000135> (basigalea)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000135> "basigalea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000135> <http://purl.obolibrary.org/obo/AISM_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000136> (proboscis)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000136> "haustellum"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000136> "proboscis"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000136> <http://purl.obolibrary.org/obo/AISM_0000044>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000136> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/LEPAO_0000134>))
+
 # Class: <http://purl.obolibrary.org/obo/UBERON_0000955> (brain)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UBERON_0000955> "This term is considered as a synonym of cephalic ganglia, however, brain is generalizable term."@en)
@@ -941,10 +984,6 @@ Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) An
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
 
-\"Vom Stipes abgegliederte äußere Lade des Coxopoditen der Maxille.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-12") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000023> "Galea"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
-Verlag, Stuttgart, New York: 332 pp.
-
 \"Telopodit des Labium.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000024> "Palpus labialis"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
@@ -967,13 +1006,6 @@ Verlag, Stuttgart, New York: 332 pp.
 
 \"Der Nahrungsaufnahme dienender Coxopodit der Extremität des vordersten Segments im Gnathocephalon.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000043> "Mandibel"@de)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000043> "Oberkiefer"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
-Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Maxille"@de)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
-Verlag, Stuttgart, New York: 332 pp.
-
-\" Der Nahrungsaufnahme dienende Extremität des mittleren Segments des Gnathocephalon.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Maxille"@de)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Unterkiefer"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-02") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000047> "Kralle"@de)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
