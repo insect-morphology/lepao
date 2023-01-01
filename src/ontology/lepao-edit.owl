@@ -161,11 +161,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000135>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000136>))
-Declaration(Class(<http://purl.obolibrary.org/obo/_LEPAO_0000137>))
-Declaration(Class(<http://purl.obolibrary.org/obo/_LEPAO_0000138>))
-Declaration(Class(<http://purl.obolibrary.org/obo/_LEPAO_0000139>))
-Declaration(Class(<http://purl.obolibrary.org/obo/_LEPAO_0000140>))
-Declaration(Class(<http://purl.obolibrary.org/obo/_LEPAO_0000141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000137>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000138>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000139>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000140>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000142>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002134>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLAO_0001602>))
 Declaration(AnnotationProperty(dce:publisher))
@@ -260,6 +261,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000003> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000004> (cellular anatomical entity)
 
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000004> "A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000004> "cellular anatomical entity"@en)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000005> (myofilament)
@@ -329,6 +331,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000016> <http://purl.obolibrar
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000017> "artery"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000017> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000142>))
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000018> (antennal artery)
 
@@ -342,8 +345,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000019> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000020> (vessel)
 
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000020> "The anatomical structure which is part of the hemolymph vascular system and consists of a vascular wall and a vascular lumen."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000020> "OARCS:0000000"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000020> "vessel"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000020> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000142>))
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000021> (cephalic vessel)
 
@@ -411,6 +417,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000031> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000032> (tracheal system)
 
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000032> "An open tracheal system is a respiratory system, a branched network of epithelial tubes that supplies oxygen to target tissues via spiracles."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000032> "UBERON:0005155"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000032> "Trachealsystem"@de)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000032> "tracheal system"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000032> <http://purl.obolibrary.org/obo/LEPAO_0000077>)
@@ -631,6 +639,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000072> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000073> (ganglion)
 
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000073> "A biological tissue mass, most commonly a mass of nerve cell bodies."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000073> "UBERON:0000045"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000073> "ganglion"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000073> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
 
@@ -651,6 +661,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000076> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000077> (anatomical system)
 
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000077> "Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000077> "UBERON:0000467"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000077> "anatomical system"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000077> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
 
@@ -713,6 +725,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000085> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000086> (nervous system)
 
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000086> "The nervous system is an organ system containing predominantly neuron and glial cells. In bilaterally symmetrical organism, it is arranged in a network of tree-like structures connected to a central body."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000086> "UBERON:0001016"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000086> "nervous system"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000086> <http://purl.obolibrary.org/obo/LEPAO_0000077>)
 
@@ -744,7 +758,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000090> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000091> (antennal nerve)
 
-AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000091> "The nerve that innervates the antenna"@en)
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000091> "The nerve that innervates the antenna."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000091> "antennal nerve"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000091> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000091> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002134> <http://purl.obolibrary.org/obo/AISM_0000032>))
@@ -787,18 +801,29 @@ SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000097> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000098> (neurohemal system)
 
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000098> "A system of neurons that has the specialized function to produce and secrete hormones, and that constitutes, in whole or in part, an endocrine organ or system."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000098> "UBERON:0001053"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000098> "arthropod neurohemal organ"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000098> "endocrine gland"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000098> "neurohemal system"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000098> <http://purl.obolibrary.org/obo/LEPAO_0000077>)
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000099> (corpora allata)
 
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000099> "One of a pair of separate or fused bodies in many insects that are sometimes closely associated with the corpora cardiaca and that secrete hormones (as juvenile hormone)"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000099> "UBERON:0001057")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000099> "corpus allatum")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000099> "corpora allata"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000099> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000098>))
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000100> (corpora cardiaca)
 
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000100> "One of a pair of neurohemal organs located on the walls of the aorta just behind the brain. The corpora cardiaca release their store of PTTH only after they receive a signal from neurosecretory cells in the brain."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000100> "UBERON:0001056"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000100> "corpora cardiaca"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000100> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000098>))
 
 # Class: <http://purl.obolibrary.org/obo/LEPAO_0000101> (connective tissue)
 
@@ -988,10 +1013,44 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000136> "p
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000136> <http://purl.obolibrary.org/obo/AISM_0000044>)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000136> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/LEPAO_0000134>))
 
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000137> (subesophageal ganglion nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000137> "subesophageal ganglion nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000137> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000138> (prothoracic ganglion nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000138> "prothoracic ganglion nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000138> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000139> (mesothoracic ganglion nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000139> "mesothoracic ganglion nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000139> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000140> (metathoracic ganglion nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000140> "metathoracic ganglion nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000140> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000141> (abdominal ganglion nerve)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000141> "abdominal ganglion nerve"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000141> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/LEPAO_0000142> (hemolymph vascular system)
+
+AnnotationAssertion(Annotation(dce:contributor "lagonzalezmo https://orcid.org/0000-0002-9136-9932"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-01"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/LEPAO_0000142> "The anatomical system which is part of the circulatory system and consists of the arterial system and the heart."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/LEPAO_0000142> "OARCS:0000177"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/LEPAO_0000142> "circulatory system"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000142> "hemolymph vascular system"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000142> <http://purl.obolibrary.org/obo/LEPAO_0000077>)
+
 # Class: <http://purl.obolibrary.org/obo/UBERON_0000955> (brain)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UBERON_0000955> "This term is considered as a synonym of cephalic ganglia, however, brain is generalizable term."@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000955> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000955> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/LEPAO_0000086>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001002> (cuticle)
 
@@ -1014,31 +1073,6 @@ Verlag, Stuttgart, New York: 332 pp.
 
 \"Die Epidermis mit ihren distalen und proximalen nichtzelligen Bildungen sowie akzessorische Zellen des Mixocöl.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-10") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_6007284> "Integument"@de)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_6007284> <http://purl.obolibrary.org/obo/LEPAO_0000079>)
-
-# Class: <http://purl.obolibrary.org/obo/_LEPAO_0000137> (subesophageal ganglion nerve)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/_LEPAO_0000137> "subesophageal ganglion nerve"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/_LEPAO_0000137> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
-
-# Class: <http://purl.obolibrary.org/obo/_LEPAO_0000138> (prothoracic ganglion nerve)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/_LEPAO_0000138> "prothoracic ganglion nerve"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/_LEPAO_0000138> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
-
-# Class: <http://purl.obolibrary.org/obo/_LEPAO_0000139> (mesothoracic ganglion nerve)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/_LEPAO_0000139> "mesothoracic ganglion nerve"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/_LEPAO_0000139> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
-
-# Class: <http://purl.obolibrary.org/obo/_LEPAO_0000140> (metathoracic ganglion nerve)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/_LEPAO_0000140> "metathoracic ganglion nerve"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/_LEPAO_0000140> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
-
-# Class: <http://purl.obolibrary.org/obo/_LEPAO_0000141> (abdominal ganglion nerve)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/_LEPAO_0000141> "abdominal ganglion nerve"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/_LEPAO_0000141> <http://purl.obolibrary.org/obo/LEPAO_0000090>)
 
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
