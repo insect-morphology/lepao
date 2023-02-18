@@ -12,6 +12,9 @@ Ontology(<http://purl.obolibrary.org/obo/lepao.owl>
 Import(<http://purl.obolibrary.org/obo/lepao.owl>)
 Import(<http://purl.obolibrary.org/obo/lepao/imports/aism_import.owl>)
 Annotation(<http://purl.obolibrary.org/obo/CLAO_0001602> "lepao"@en)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> "http://purl.obolibrary.org/obo/AISM_0000174")
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> "http://purl.obolibrary.org/obo/LEPAO_0000006")
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> "http://purl.obolibrary.org/obo/PATO_0000001")
 Annotation(dce:contributor <https://www.biofid.de>)
 Annotation(dce:contributor "Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932"@en)
 Annotation(dce:contributor "Markus Koch (mjkoch)"@en)
@@ -169,6 +172,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000141>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000142>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/LEPAO_0000144>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002134>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/CLAO_0001602>))
 Declaration(AnnotationProperty(dce:publisher))
@@ -182,6 +186,11 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#cre
 # Annotation Property: <http://purl.obolibrary.org/obo/CLAO_0001602> (default-namespace)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLAO_0001602> "default-namespace"@en)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000700> (has ontology root term)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000700> "Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000700> "has ontology root term"@en)
 
 
 ############################
@@ -198,19 +207,19 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002134> "inne
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/AISM_0000023> (galea)
+# Class: <http://purl.obolibrary.org/obo/AISM_0000023> (cuticle of galea)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
 
 \"Vom Stipes abgegliederte äußere Lade des Coxopoditen der Maxille.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-12") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000023> "Galea"@de)
 
-# Class: <http://purl.obolibrary.org/obo/AISM_0000032> (antenna)
+# Class: <http://purl.obolibrary.org/obo/AISM_0000032> (cuticle of antenna)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
 Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000032> "Antenne"@de)
 
-# Class: <http://purl.obolibrary.org/obo/AISM_0000043> (insect mandible)
+# Class: <http://purl.obolibrary.org/obo/AISM_0000043> (cuticle of insect mandible)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
@@ -218,7 +227,7 @@ Verlag, Stuttgart, New York: 332 pp.
 \"Der Nahrungsaufnahme dienender Coxopodit der Extremität des vordersten Segments im Gnathocephalon.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000043> "Mandibel"@de)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000043> "Oberkiefer"@de)
 
-# Class: <http://purl.obolibrary.org/obo/AISM_0000044> (insect maxilla)
+# Class: <http://purl.obolibrary.org/obo/AISM_0000044> (cuticle of insect maxilla)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
 Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639."@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-06-23") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Maxille"@de)
@@ -228,7 +237,7 @@ Verlag, Stuttgart, New York: 332 pp.
 \" Der Nahrungsaufnahme dienende Extremität des mittleren Segments des Gnathocephalon.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Maxille"@de)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000044> "Unterkiefer"@de)
 
-# Class: <http://purl.obolibrary.org/obo/AISM_0000087> (labium)
+# Class: <http://purl.obolibrary.org/obo/AISM_0000087> (cuticle of labium)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
@@ -236,7 +245,7 @@ Verlag, Stuttgart, New York: 332 pp.
 \"Den Präoralraum kaudal abschließende, basal miteinander verschmolzene Extremitäten des hinteren Segments des Gnathocephalon.\""@de) Annotation(dce:contributor "lagonzalezmo") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-13") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000087> "Labium"@de)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000087> "Unterlippe"@de)
 
-# Class: <http://purl.obolibrary.org/obo/AISM_0000091> (trachea)
+# Class: <http://purl.obolibrary.org/obo/AISM_0000091> (insect trachea)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
 Verlag, Stuttgart, New York: 332 pp.
@@ -1068,6 +1077,43 @@ https://doi.org/10.1242/dev.126.11.2309
 
 \"In insects and vertebrates, the equivalent ‘neural’ body sides give rise to a prominent brain and nerve cord\""@en) rdfs:label <http://purl.obolibrary.org/obo/LEPAO_0000144> "neural tube"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/LEPAO_0000144> <http://purl.obolibrary.org/obo/LEPAO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000001> "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities [database_cross_reference: PATOC:GVG]"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality"@en)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000052> (shape)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000052> <http://purl.obolibrary.org/obo/PATO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000117> (size)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000117> <http://purl.obolibrary.org/obo/PATO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000964> (transparent)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000964> <http://purl.obolibrary.org/obo/PATO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000984> (porous)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000984> <http://purl.obolibrary.org/obo/PATO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001031> (elasticity)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001031> <http://purl.obolibrary.org/obo/PATO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001543> (flexibility)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001543> <http://purl.obolibrary.org/obo/PATO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0002078> (hollow)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0002078> <http://purl.obolibrary.org/obo/PATO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0040024> (bilaterally paired)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0040024> <http://purl.obolibrary.org/obo/PATO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0000955> (brain)
 

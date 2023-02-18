@@ -11,14 +11,25 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/lepao/lepao-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/lepao/releases/2021-11-20/lepao-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/lepao/releases/2023-02-18/lepao-base.owl"/>
+        <obo:CLAO_0001602 xml:lang="en">lepao</obo:CLAO_0001602>
+        <obo:IAO_0000700>http://purl.obolibrary.org/obo/AISM_0000174</obo:IAO_0000700>
+        <obo:IAO_0000700>http://purl.obolibrary.org/obo/LEPAO_0000006</obo:IAO_0000700>
+        <obo:IAO_0000700>http://purl.obolibrary.org/obo/PATO_0000001</obo:IAO_0000700>
+        <dc:contributor rdf:resource="https://www.biofid.de"/>
         <dc:contributor xml:lang="en">Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932</dc:contributor>
         <dc:contributor xml:lang="en">Markus Koch (mjkoch)</dc:contributor>
         <dc:description xml:lang="en">The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research.</dc:description>
+        <dc:publisher rdf:resource="https://github.com/FID-Biodiversity"/>
+        <dc:relation rdf:resource="http://www.obofoundry.org/ontology/aism.html"/>
+        <dc:relation rdf:resource="http://www.obofoundry.org/ontology/hao.html"/>
         <dc:title xml:lang="en">Lepidoptera Anatomy Ontology</dc:title>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
+        <terms:bibliographicCitation xml:lang="en">Markus Koch (2021) Lepidoptera Anatomy Ontology. Version LepAO-vBIOfid-2020. Available from https://github.com/FID-Biodiversity/Ontologies</terms:bibliographicCitation>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-11-20</owl:versionInfo>
+        <rdfs:comment xml:lang="en">The development of LEPAO is supported by the German Research Foundation (DFG grant MO 412/54-1). LEPAO was developed within the framework of the DFG-funded Specialised Information Service Biodiversity Research (BIOfid) in cooperation with the organisation insect-morphology (https://github.com/insect-morphology). This version is further developed by the team of insect-morphology with the Ontology Development Kit for implementation in the ontology for the Anatomy of the Insect SkeletonMuscular system (AISM, https://github.com/insect-morphology/aism).</rdfs:comment>
+        <owl:versionInfo xml:lang="en">2022-12-29</owl:versionInfo>
+        <owl:versionInfo>2023-02-18</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -40,15 +51,74 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLAO_0001602 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLAO_0001602">
+        <rdfs:label xml:lang="en">default-namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700">
+        <obo:IAO_0000115 xml:lang="en">Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has ontology root term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/relation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/relation"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -61,6 +131,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     
 
 
@@ -87,6 +163,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002134 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002134">
+        <rdfs:label xml:lang="en">innervates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -95,6 +185,111 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000023">
+        <oboInOwl:hasExactSynonym xml:lang="de">Galea</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000023"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="de">Galea</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="de">Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+&quot;Vom Stipes abgegliederte äußere Lade des Coxopoditen der Maxille.&quot;</obo:AISM_0000171>
+        <dc:contributor>lagonzalezmo</dc:contributor>
+        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000032">
+        <oboInOwl:hasExactSynonym xml:lang="de">Antenne</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000032"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="de">Antenne</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="de">Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
+Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639.</obo:AISM_0000171>
+        <dc:contributor>lagonzalezmo</dc:contributor>
+        <oboInOwl:creation_date>2021-06-23</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000043">
+        <oboInOwl:hasExactSynonym xml:lang="de">Mandibel</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Oberkiefer</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000043"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="de">Mandibel</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="de">Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+&quot;Der Nahrungsaufnahme dienender Coxopodit der Extremität des vordersten Segments im Gnathocephalon.&quot;</obo:AISM_0000171>
+        <dc:contributor>lagonzalezmo</dc:contributor>
+        <oboInOwl:creation_date>2021-06-23</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000044">
+        <oboInOwl:hasExactSynonym xml:lang="de">Maxille</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Unterkiefer</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000044"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="de">Maxille</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="de">Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
+Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639.</obo:AISM_0000171>
+        <dc:contributor>lagonzalezmo</dc:contributor>
+        <oboInOwl:creation_date>2021-06-23</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000044"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="de">Maxille</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="de">Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+&quot; Der Nahrungsaufnahme dienende Extremität des mittleren Segments des Gnathocephalon.&quot;</obo:AISM_0000171>
+        <dc:contributor>lagonzalezmo</dc:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000087">
+        <oboInOwl:hasExactSynonym xml:lang="de">Labium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Unterlippe</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000087"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="de">Labium</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="de">Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
+Verlag, Stuttgart, New York: 332 pp.
+
+&quot;Den Präoralraum kaudal abschließende, basal miteinander verschmolzene Extremitäten des hinteren Segments des Gnathocephalon.&quot;</obo:AISM_0000171>
+        <dc:contributor>lagonzalezmo</dc:contributor>
+        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -154,8 +349,16 @@ Verlag, Stuttgart, New York: 332 pp.
     <!-- http://purl.obolibrary.org/obo/LEPAO_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000004">
+        <obo:IAO_0000115 xml:lang="en">A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cellular anatomical entity</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -171,8 +374,17 @@ Verlag, Stuttgart, New York: 332 pp.
     <!-- http://purl.obolibrary.org/obo/LEPAO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000006">
+        <obo:IAO_0000115 xml:lang="en">Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0001062</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">anatomical entity</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -243,8 +455,17 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <obo:IAO_0000115 xml:lang="en">Anatomical structure that consists of cell parts and cell substances and together does not constitute a cell or a tissue.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0000476</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">acellular anatomical structure</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000014"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Anatomical structure that consists of cell parts and cell substances and together does not constitute a cell or a tissue.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -270,6 +491,12 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000142"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">artery</rdfs:label>
     </owl:Class>
     
@@ -297,8 +524,23 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000142"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The anatomical structure which is part of the hemolymph vascular system and consists of a vascular wall and a vascular lumen.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">OARCS:0000000</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">vessel</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The anatomical structure which is part of the hemolymph vascular system and consists of a vascular wall and a vascular lumen.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -437,9 +679,18 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000077"/>
+        <obo:IAO_0000115 xml:lang="en">An open tracheal system is a respiratory system, a branched network of epithelial tubes that supplies oxygen to target tissues via spiracles.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0005155</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="de">Trachealsystem</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">tracheal system</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000032"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An open tracheal system is a respiratory system, a branched network of epithelial tubes that supplies oxygen to target tissues via spiracles.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -833,8 +1084,23 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A biological tissue mass, most commonly a mass of nerve cell bodies.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0000045</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">ganglion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000073"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A biological tissue mass, most commonly a mass of nerve cell bodies.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -869,8 +1135,17 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <obo:IAO_0000115 xml:lang="en">Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0000467</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">anatomical system</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000077"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -918,8 +1193,17 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001002"/>
+        <obo:IAO_0000115 xml:lang="en">The procuticle that is not tanned (sclerotised, proteins scarcely crosslinked) and located between the Schmidt&apos;s layer and the exocuticle.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">HAO:0000290</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">endocuticle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000081"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The procuticle that is not tanned (sclerotised, proteins scarcely crosslinked) and located between the Schmidt&apos;s layer and the exocuticle.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -927,8 +1211,17 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001002"/>
+        <obo:IAO_0000115 xml:lang="en">The cuticle that does not contain chitin fibrils and is located externally of the exocuticle.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">HAO:0001764</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">epicuticle</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000082"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cuticle that does not contain chitin fibrils and is located externally of the exocuticle.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -987,8 +1280,17 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000077"/>
+        <obo:IAO_0000115 xml:lang="en">The nervous system is an organ system containing predominantly neuron and glial cells. In bilaterally symmetrical organism, it is arranged in a network of tree-like structures connected to a central body.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0001016</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">nervous system</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000086"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nervous system is an organ system containing predominantly neuron and glial cells. In bilaterally symmetrical organism, it is arranged in a network of tree-like structures connected to a central body.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1044,6 +1346,12 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">nerve</rdfs:label>
     </owl:Class>
     
@@ -1053,8 +1361,22 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The nerve that innervates the antenna.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">antennal nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000091"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nerve that innervates the antenna.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1080,8 +1402,22 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The nerve that innervates the labium</obo:IAO_0000115>
         <rdfs:label xml:lang="en">labial nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000094"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nerve that innervates the labium</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1089,8 +1425,22 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The nerve that innervates the mandible.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">madibular nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000095"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nerve that innervates the mandible.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1098,8 +1448,22 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002134"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The nerve that innervates the maxilla.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">maxillary nerve</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000096"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The nerve that innervates the maxilla.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1116,8 +1480,19 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000077"/>
+        <obo:IAO_0000115 xml:lang="en">A system of neurons that has the specialized function to produce and secrete hormones, and that constitutes, in whole or in part, an endocrine organ or system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0001053</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">arthropod neurohemal organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">endocrine gland</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">neurohemal system</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000098"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A system of neurons that has the specialized function to produce and secrete hormones, and that constitutes, in whole or in part, an endocrine organ or system.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1125,8 +1500,24 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">One of a pair of separate or fused bodies in many insects that are sometimes closely associated with the corpora cardiaca and that secrete hormones (as juvenile hormone)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0001057</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>corpus allatum</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">corpora allata</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000099"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">One of a pair of separate or fused bodies in many insects that are sometimes closely associated with the corpora cardiaca and that secrete hormones (as juvenile hormone)</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1134,8 +1525,23 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">One of a pair of neurohemal organs located on the walls of the aorta just behind the brain. The corpora cardiaca release their store of PTTH only after they receive a signal from neurosecretory cells in the brain.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0001056</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">corpora cardiaca</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000100"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">One of a pair of neurohemal organs located on the walls of the aorta just behind the brain. The corpora cardiaca release their store of PTTH only after they receive a signal from neurosecretory cells in the brain.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1230,8 +1636,22 @@ Verlag, Stuttgart, New York: 332 pp.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000144"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A transverse unitary subdivision of the neural tube that shares a common dorsoventral structure (floor, basal, alar, and roof plates), but each having differential molecular identities and fates; they comprise the secondary prosencephalon, diencephalon (prosomeres), the midbrain (mesomeres), and the hindbrain (rhombomeres).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">neuromere</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000110"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A transverse unitary subdivision of the neural tube that shares a common dorsoventral structure (floor, basal, alar, and roof plates), but each having differential molecular identities and fates; they comprise the secondary prosencephalon, diencephalon (prosomeres), the midbrain (mesomeres), and the hindbrain (rhombomeres).</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-03</oboInOwl:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1458,10 +1878,241 @@ Verlag, Stuttgart, New York: 332 pp.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000023"/>
+        <rdfs:label xml:lang="en">subgalea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000023"/>
+        <rdfs:label xml:lang="en">distigalea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000023"/>
+        <rdfs:label xml:lang="en">basigalea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">haustellum</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">proboscis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000090"/>
+        <rdfs:label xml:lang="en">subesophageal ganglion nerve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000090"/>
+        <rdfs:label xml:lang="en">prothoracic ganglion nerve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000090"/>
+        <rdfs:label xml:lang="en">mesothoracic ganglion nerve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000090"/>
+        <rdfs:label xml:lang="en">metathoracic ganglion nerve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000090"/>
+        <rdfs:label xml:lang="en">abdominal ganglion nerve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000077"/>
+        <obo:IAO_0000115 xml:lang="en">The anatomical system which is part of the circulatory system and consists of the arterial system and the heart.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">OARCS:0000177</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">circulatory system</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">hemolymph vascular system</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000142"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The anatomical system which is part of the circulatory system and consists of the arterial system and the heart.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-01</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000052"/>
+        <obo:IAO_0000115 xml:lang="en">A portion of tissue that is part of an embryo.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref xml:lang="en">UBERON:0005291</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">embryonic tissue</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000143"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A portion of tissue that is part of an embryo.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/LEPAO_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/LEPAO_0000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <obo:IAO_0000115 xml:lang="en">The neural tube is the embryo&apos;s precursor to the central nervous system, which comprises the brain and nerve cord.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">neural tube</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000144"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The neural tube is the embryo&apos;s precursor to the central nervous system, which comprises the brain and nerve cord.</owl:annotatedTarget>
+        <dc:contributor xml:lang="en">lagonzalezmo https://orcid.org/0000-0002-9136-9932</dc:contributor>
+        <oboInOwl:creation_date xml:lang="en">2023-01-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000144"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">neural tube</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Arendt, D., &amp; Nubler-Jung, K. (1999). Comparison of early nerve cord development in insects and vertebrates. Development, 126(11), 2309-2325.
+
+https://doi.org/10.1242/dev.126.11.2309
+
+&quot;In insects and vertebrates, the equivalent ‘neural’ body sides give rise to a prominent brain and nerve cord&quot;</obo:AISM_0000171>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001">
+        <obo:IAO_0000115 xml:lang="en">A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities [database_cross_reference: PATOC:GVG]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000964">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000984">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0040024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0040024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000955">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/LEPAO_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">This term is considered as a synonym of cephalic ganglia, however, brain is generalizable term.</rdfs:comment>
     </owl:Class>
     
@@ -1598,20 +2249,6 @@ Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639.</obo:AI
         <dc:contributor>lagonzalezmo</dc:contributor>
         <oboInOwl:creation_date>2021-06-23</oboInOwl:creation_date>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000023">
-        <oboInOwl:hasExactSynonym xml:lang="de">Galea</oboInOwl:hasExactSynonym>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000023"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="de">Galea</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="de">Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
-Verlag, Stuttgart, New York: 332 pp.
-
-&quot;Vom Stipes abgegliederte äußere Lade des Coxopoditen der Maxille.&quot;</obo:AISM_0000171>
-        <dc:contributor>lagonzalezmo</dc:contributor>
-        <oboInOwl:creation_date>2021-09-12</oboInOwl:creation_date>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000024">
         <oboInOwl:hasExactSynonym xml:lang="de">Palpus labialis</oboInOwl:hasExactSynonym>
     </rdf:Description>
@@ -1640,18 +2277,6 @@ Verlag, Stuttgart, New York: 332 pp.
         <dc:contributor>lagonzalezmo</dc:contributor>
         <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000032">
-        <oboInOwl:hasExactSynonym xml:lang="de">Antenne</oboInOwl:hasExactSynonym>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000032"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="de">Antenne</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="de">Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
-Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639.</obo:AISM_0000171>
-        <dc:contributor>lagonzalezmo</dc:contributor>
-        <oboInOwl:creation_date>2021-06-23</oboInOwl:creation_date>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000039">
         <oboInOwl:hasExactSynonym xml:lang="de">Echtes Haar</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Seta</oboInOwl:hasExactSynonym>
@@ -1668,8 +2293,8 @@ Verlag, Stuttgart, New York: 332 pp.
         <oboInOwl:creation_date>2021-08-02</oboInOwl:creation_date>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000042">
-        <oboInOwl:hasExactSynonym xml:lang="de">Oberlippe</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Labrum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Oberlippe</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000042"/>
@@ -1681,45 +2306,6 @@ Verlag, Stuttgart, New York: 332 pp.
 &quot; Frontaler Bezirk der Kopfkapsel ventral von der Clypeolabralnaht.&quot;</obo:AISM_0000171>
         <dc:contributor>lagonzalezmo</dc:contributor>
         <oboInOwl:creation_date>2021-07-05</oboInOwl:creation_date>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000043">
-        <oboInOwl:hasExactSynonym xml:lang="de">Oberkiefer</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="de">Mandibel</oboInOwl:hasExactSynonym>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000043"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="de">Mandibel</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="de">Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
-Verlag, Stuttgart, New York: 332 pp.
-
-&quot;Der Nahrungsaufnahme dienender Coxopodit der Extremität des vordersten Segments im Gnathocephalon.&quot;</obo:AISM_0000171>
-        <dc:contributor>lagonzalezmo</dc:contributor>
-        <oboInOwl:creation_date>2021-06-23</oboInOwl:creation_date>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000044">
-        <oboInOwl:hasExactSynonym xml:lang="de">Maxille</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="de">Unterkiefer</oboInOwl:hasExactSynonym>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000044"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="de">Maxille</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="de">Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). 
-Beiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639.</obo:AISM_0000171>
-        <dc:contributor>lagonzalezmo</dc:contributor>
-        <oboInOwl:creation_date>2021-06-23</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000044"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="de">Maxille</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="de">Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
-Verlag, Stuttgart, New York: 332 pp.
-
-&quot; Der Nahrungsaufnahme dienende Extremität des mittleren Segments des Gnathocephalon.&quot;</obo:AISM_0000171>
-        <dc:contributor>lagonzalezmo</dc:contributor>
-        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000047">
         <oboInOwl:hasExactSynonym xml:lang="de">Kralle</oboInOwl:hasExactSynonym>
@@ -1886,18 +2472,9 @@ https://doi.org/10.1007/978-3-8274-2618-5_2</obo:AISM_0000171>
         <oboInOwl:creation_date>2021-07-05</oboInOwl:creation_date>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000077">
-        <oboInOwl:hasExactSynonym xml:lang="de">Hüfte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Coxa</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Hüfte</oboInOwl:hasExactSynonym>
     </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000077"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="de">Hüfte</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="de">Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
-Verlag, Stuttgart, New York: 332 pp.</obo:AISM_0000171>
-        <dc:contributor>lagonzalezmo</dc:contributor>
-        <oboInOwl:creation_date>2021-08-02</oboInOwl:creation_date>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000077"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -1908,24 +2485,18 @@ Verlag, Stuttgart, New York: 332 pp.</obo:AISM_0000171>
         <dc:contributor>lagonzalezmo</dc:contributor>
         <oboInOwl:creation_date>2021-08-02</oboInOwl:creation_date>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000087">
-        <oboInOwl:hasExactSynonym xml:lang="de">Labium</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="de">Unterlippe</oboInOwl:hasExactSynonym>
-    </rdf:Description>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000087"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000077"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="de">Labium</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="de">Hüfte</owl:annotatedTarget>
         <obo:AISM_0000171 xml:lang="de">Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme
-Verlag, Stuttgart, New York: 332 pp.
-
-&quot;Den Präoralraum kaudal abschließende, basal miteinander verschmolzene Extremitäten des hinteren Segments des Gnathocephalon.&quot;</obo:AISM_0000171>
+Verlag, Stuttgart, New York: 332 pp.</obo:AISM_0000171>
         <dc:contributor>lagonzalezmo</dc:contributor>
-        <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
+        <oboInOwl:creation_date>2021-08-02</oboInOwl:creation_date>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000093">
-        <oboInOwl:hasExactSynonym xml:lang="de">Lingua</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Hypopharynx</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Lingua</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000093"/>
@@ -2279,8 +2850,8 @@ Verlag, Stuttgart, New York: 332 pp.
         <oboInOwl:creation_date xml:lang="de">2021-06-23</oboInOwl:creation_date>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0004020">
-        <oboInOwl:hasExactSynonym xml:lang="de">Stirnfläche</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Frons</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Stirnfläche</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004020"/>
@@ -2330,9 +2901,18 @@ https://doi.org/10.1007/978-3-8274-2618-5_2</obo:AISM_0000171>
         <oboInOwl:creation_date>2021-07-05</oboInOwl:creation_date>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0004025">
-        <oboInOwl:hasExactSynonym xml:lang="de">Vertex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Scheitelfläche</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Vertex</oboInOwl:hasExactSynonym>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004025"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="de">Scheitelfläche</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="de">Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
+https://doi.org/10.1007/978-3-8274-2618-5_2</obo:AISM_0000171>
+        <dc:contributor>lagonzalezmo</dc:contributor>
+        <oboInOwl:creation_date>2021-07-05</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004025"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -2344,18 +2924,9 @@ Verlag, Stuttgart, New York: 332 pp.
         <dc:contributor>lagonzalezmo</dc:contributor>
         <oboInOwl:creation_date>2021-07-05</oboInOwl:creation_date>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004025"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="de">Scheitelfläche</owl:annotatedTarget>
-        <obo:AISM_0000171 xml:lang="de">Seifert G. (2010) Körpergliederung. In: Dettner K., Peters W. (eds) Lehrbuch der Entomologie. Spektrum Akademischer Verlag. 
-https://doi.org/10.1007/978-3-8274-2618-5_2</obo:AISM_0000171>
-        <dc:contributor>lagonzalezmo</dc:contributor>
-        <oboInOwl:creation_date>2021-07-05</oboInOwl:creation_date>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0004026">
-        <oboInOwl:hasExactSynonym xml:lang="de">Wangenbereiche</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Gena</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Wangenbereiche</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004026"/>
@@ -2783,9 +3354,16 @@ Verlag, Stuttgart, New York: 332 pp.
         <oboInOwl:creation_date>2021-09-13</oboInOwl:creation_date>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0004168">
-        <oboInOwl:hasExactSynonym xml:lang="de">Trochanter</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Schenkelring</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Trochanter</oboInOwl:hasExactSynonym>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004168"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="de">Schenkelring</owl:annotatedTarget>
+        <dc:contributor>lagonzalezmo</dc:contributor>
+        <oboInOwl:creation_date>2021-08-02</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004168"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -2797,17 +3375,17 @@ Verlag, Stuttgart, New York: 332 pp.
         <dc:contributor>lagonzalezmo</dc:contributor>
         <oboInOwl:creation_date>2021-08-02</oboInOwl:creation_date>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004168"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="de">Schenkelring</owl:annotatedTarget>
-        <dc:contributor>lagonzalezmo</dc:contributor>
-        <oboInOwl:creation_date>2021-08-02</oboInOwl:creation_date>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0004169">
-        <oboInOwl:hasExactSynonym xml:lang="de">Tarsus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Fuß</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="de">Tarsus</oboInOwl:hasExactSynonym>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004169"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="de">Fuß</owl:annotatedTarget>
+        <dc:contributor>lagonzalezmo</dc:contributor>
+        <oboInOwl:creation_date>2021-07-05</oboInOwl:creation_date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004169"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -2818,13 +3396,6 @@ Verlag, Stuttgart, New York: 332 pp.
 &quot; Zwischen Tibia und Prätarsus gelegener Abschnitt der Extremität.&quot;</obo:AISM_0000171>
         <dc:contributor>lagonzalezmo</dc:contributor>
         <oboInOwl:creation_date>2021-08-02</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004169"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="de">Fuß</owl:annotatedTarget>
-        <dc:contributor>lagonzalezmo</dc:contributor>
-        <oboInOwl:creation_date>2021-07-05</oboInOwl:creation_date>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0004188">
         <oboInOwl:hasExactSynonym xml:lang="de">Metatarsus</oboInOwl:hasExactSynonym>
@@ -2869,5 +3440,5 @@ Verlag, Stuttgart, New York: 332 pp.</obo:AISM_0000171>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 
