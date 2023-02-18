@@ -1,13 +1,48 @@
 format-version: 1.2
-data-version: lepao/releases/2021-11-20/lepao-base.owl
+data-version: lepao/releases/2023-02-18/lepao-base.owl
+remark: The development of LEPAO is supported by the German Research Foundation (DFG grant MO 412/54-1). LEPAO was developed within the framework of the DFG-funded Specialised Information Service Biodiversity Research (BIOfid) in cooperation with the organisation insect-morphology (https://github.com/insect-morphology). This version is further developed by the team of insect-morphology with the Ontology Development Kit for implementation in the ontology for the Anatomy of the Insect SkeletonMuscular system (AISM, https://github.com/insect-morphology/aism).
 ontology: lepao/lepao-base
+property_value: CLAO:0001602 "lepao" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor https://www.biofid.de
 property_value: http://purl.org/dc/elements/1.1/contributor "Luis A. González Montaña (lagonzalezmo) https://orcid.org/0000-0002-9136-9932" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Markus Koch (mjkoch)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research." xsd:string
+property_value: http://purl.org/dc/elements/1.1/publisher https://github.com/FID-Biodiversity
+property_value: http://purl.org/dc/elements/1.1/relation http://www.obofoundry.org/ontology/aism.html
+property_value: http://purl.org/dc/elements/1.1/relation http://www.obofoundry.org/ontology/hao.html
 property_value: http://purl.org/dc/elements/1.1/title "Lepidoptera Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: http://purl.org/dc/terms/bibliographicCitation "Markus Koch (2021) Lepidoptera Anatomy Ontology. Version LepAO-vBIOfid-2020. Available from https://github.com/FID-Biodiversity/Ontologies" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2021-11-20" xsd:string
+property_value: IAO:0000700 "http://purl.obolibrary.org/obo/AISM_0000174" xsd:string
+property_value: IAO:0000700 "http://purl.obolibrary.org/obo/LEPAO_0000006" xsd:string
+property_value: IAO:0000700 "http://purl.obolibrary.org/obo/PATO_0000001" xsd:string
+property_value: owl:versionInfo "2022-12-29" xsd:string
+property_value: owl:versionInfo "2023-02-18" xsd:string
+
+[Term]
+id: AISM:0000023
+synonym: "Galea" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\"Vom Stipes abgegliederte äußere Lade des Coxopoditen der Maxille.\"", creation_date="2021-09-12", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+
+[Term]
+id: AISM:0000032
+synonym: "Antenne" EXACT [] {creation_date="2021-06-23", http://purl.obolibrary.org/obo/AISM_0000171="Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). \nBeiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639.", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+
+[Term]
+id: AISM:0000043
+synonym: "Mandibel" EXACT [] {creation_date="2021-06-23", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo", http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\"Der Nahrungsaufnahme dienender Coxopodit der Extremität des vordersten Segments im Gnathocephalon.\""}
+synonym: "Oberkiefer" EXACT []
+
+[Term]
+id: AISM:0000044
+synonym: "Maxille" EXACT [] {creation_date="2021-06-23", http://purl.obolibrary.org/obo/AISM_0000171="Bollmann, H. G. (1955). Die Raupen mitteleuropäischer Pyraustinae (Lepidoptera: Pyralidae). \nBeiträge zur Entomologie= Contributions to Entomology, 5(5-6), 521-639.", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+synonym: "Maxille" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\" Der Nahrungsaufnahme dienende Extremität des mittleren Segments des Gnathocephalon.\"", creation_date="2021-09-13", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
+synonym: "Unterkiefer" EXACT []
+
+[Term]
+id: AISM:0000087
+synonym: "Labium" EXACT [] {creation_date="2021-09-13", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo", http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\"Den Präoralraum kaudal abschließende, basal miteinander verschmolzene Extremitäten des hinteren Segments des Gnathocephalon.\""}
+synonym: "Unterlippe" EXACT []
 
 [Term]
 id: AISM:0000091
@@ -34,6 +69,7 @@ is_a: LEPAO:0000001 ! muscle tissue
 [Term]
 id: LEPAO:0000004
 name: cellular anatomical entity
+def: "A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
 
 [Term]
 id: LEPAO:0000005
@@ -43,6 +79,8 @@ is_a: LEPAO:0000004 ! cellular anatomical entity
 [Term]
 id: LEPAO:0000006
 name: anatomical entity
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+xref: UBERON:0001062
 
 [Term]
 id: LEPAO:0000007
@@ -82,6 +120,8 @@ is_a: LEPAO:0000011 ! protein
 [Term]
 id: LEPAO:0000014
 name: acellular anatomical structure
+def: "Anatomical structure that consists of cell parts and cell substances and together does not constitute a cell or a tissue." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+xref: UBERON:0000476
 is_a: LEPAO:0000006 ! anatomical entity
 
 [Term]
@@ -98,6 +138,7 @@ is_a: LEPAO:0000015 ! carbohydrate
 id: LEPAO:0000017
 name: artery
 is_a: LEPAO:0000006 ! anatomical entity
+relationship: BFO:0000050 LEPAO:0000142 ! hemolymph vascular system
 
 [Term]
 id: LEPAO:0000018
@@ -112,7 +153,10 @@ is_a: LEPAO:0000021 ! cephalic vessel
 [Term]
 id: LEPAO:0000020
 name: vessel
+def: "The anatomical structure which is part of the hemolymph vascular system and consists of a vascular wall and a vascular lumen." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+xref: OARCS:0000000
 is_a: LEPAO:0000006 ! anatomical entity
+relationship: BFO:0000050 LEPAO:0000142 ! hemolymph vascular system
 
 [Term]
 id: LEPAO:0000021
@@ -175,7 +219,9 @@ is_a: AISM:0000091
 [Term]
 id: LEPAO:0000032
 name: tracheal system
+def: "An open tracheal system is a respiratory system, a branched network of epithelial tubes that supplies oxygen to target tissues via spiracles." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
 synonym: "Trachealsystem" EXACT []
+xref: UBERON:0005155
 is_a: LEPAO:0000077 ! anatomical system
 
 [Term]
@@ -389,7 +435,10 @@ is_a: LEPAO:0000006 ! anatomical entity
 [Term]
 id: LEPAO:0000073
 name: ganglion
+def: "A biological tissue mass, most commonly a mass of nerve cell bodies." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+xref: UBERON:0000045
 is_a: LEPAO:0000006 ! anatomical entity
+relationship: BFO:0000050 LEPAO:0000086 ! nervous system
 
 [Term]
 id: LEPAO:0000074
@@ -409,6 +458,8 @@ is_a: LEPAO:0000073 ! ganglion
 [Term]
 id: LEPAO:0000077
 name: anatomical system
+def: "Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+xref: UBERON:0000467
 is_a: LEPAO:0000006 ! anatomical entity
 
 [Term]
@@ -431,11 +482,15 @@ is_a: LEPAO:0000053 ! epithelium
 [Term]
 id: LEPAO:0000081
 name: endocuticle
+def: "The procuticle that is not tanned (sclerotised, proteins scarcely crosslinked) and located between the Schmidt's layer and the exocuticle." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+xref: HAO:0000290
 is_a: UBERON:0001002
 
 [Term]
 id: LEPAO:0000082
 name: epicuticle
+def: "The cuticle that does not contain chitin fibrils and is located externally of the exocuticle." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+xref: HAO:0001764
 is_a: UBERON:0001002
 
 [Term]
@@ -458,6 +513,8 @@ is_a: LEPAO:0000030 ! subdivision of digestive tract
 [Term]
 id: LEPAO:0000086
 name: nervous system
+def: "The nervous system is an organ system containing predominantly neuron and glial cells. In bilaterally symmetrical organism, it is arranged in a network of tree-like structures connected to a central body." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+xref: UBERON:0001016
 is_a: LEPAO:0000077 ! anatomical system
 
 [Term]
@@ -485,11 +542,14 @@ relationship: BFO:0000050 LEPAO:0000108 ! cerebral ganglion
 id: LEPAO:0000090
 name: nerve
 is_a: LEPAO:0000006 ! anatomical entity
+relationship: BFO:0000050 LEPAO:0000086 ! nervous system
 
 [Term]
 id: LEPAO:0000091
 name: antennal nerve
+def: "The nerve that innervates the antenna." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
 is_a: LEPAO:0000090 ! nerve
+relationship: RO:0002134 AISM:0000032 ! innervates
 
 [Term]
 id: LEPAO:0000092
@@ -504,17 +564,23 @@ is_a: LEPAO:0000090 ! nerve
 [Term]
 id: LEPAO:0000094
 name: labial nerve
+def: "The nerve that innervates the labium" [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
 is_a: LEPAO:0000090 ! nerve
+relationship: RO:0002134 AISM:0000087 ! innervates
 
 [Term]
 id: LEPAO:0000095
 name: madibular nerve
+def: "The nerve that innervates the mandible." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
 is_a: LEPAO:0000090 ! nerve
+relationship: RO:0002134 AISM:0000043 ! innervates
 
 [Term]
 id: LEPAO:0000096
 name: maxillary nerve
+def: "The nerve that innervates the maxilla." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
 is_a: LEPAO:0000090 ! nerve
+relationship: RO:0002134 AISM:0000044 ! innervates
 
 [Term]
 id: LEPAO:0000097
@@ -524,17 +590,28 @@ is_a: LEPAO:0000090 ! nerve
 [Term]
 id: LEPAO:0000098
 name: neurohemal system
+def: "A system of neurons that has the specialized function to produce and secrete hormones, and that constitutes, in whole or in part, an endocrine organ or system." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+synonym: "arthropod neurohemal organ" EXACT []
+synonym: "endocrine gland" EXACT []
+xref: UBERON:0001053
 is_a: LEPAO:0000077 ! anatomical system
 
 [Term]
 id: LEPAO:0000099
 name: corpora allata
+def: "One of a pair of separate or fused bodies in many insects that are sometimes closely associated with the corpora cardiaca and that secrete hormones (as juvenile hormone)" [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+synonym: "corpus allatum" EXACT []
+xref: UBERON:0001057
 is_a: LEPAO:0000006 ! anatomical entity
+relationship: BFO:0000050 LEPAO:0000098 ! neurohemal system
 
 [Term]
 id: LEPAO:0000100
 name: corpora cardiaca
+def: "One of a pair of neurohemal organs located on the walls of the aorta just behind the brain. The corpora cardiaca release their store of PTTH only after they receive a signal from neurosecretory cells in the brain." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+xref: UBERON:0001056
 is_a: LEPAO:0000006 ! anatomical entity
+relationship: BFO:0000050 LEPAO:0000098 ! neurohemal system
 
 [Term]
 id: LEPAO:0000101
@@ -585,7 +662,9 @@ is_a: LEPAO:0000073 ! ganglion
 [Term]
 id: LEPAO:0000110
 name: neuromere
+def: "A transverse unitary subdivision of the neural tube that shares a common dorsoventral structure (floor, basal, alar, and roof plates), but each having differential molecular identities and fates; they comprise the secondary prosencephalon, diencephalon (prosomeres), the midbrain (mesomeres), and the hindbrain (rhombomeres)." [] {creation_date="2023-01-03", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932"}
 is_a: LEPAO:0000006 ! anatomical entity
+relationship: BFO:0000050 LEPAO:0000144 ! neural tube
 
 [Term]
 id: LEPAO:0000111
@@ -703,9 +782,115 @@ name: abdominal ganglion 7
 is_a: LEPAO:0000075 ! abdominal ganglion
 
 [Term]
+id: LEPAO:0000133
+name: subgalea
+is_a: AISM:0000023
+
+[Term]
+id: LEPAO:0000134
+name: distigalea
+is_a: AISM:0000023
+
+[Term]
+id: LEPAO:0000135
+name: basigalea
+is_a: AISM:0000023
+
+[Term]
+id: LEPAO:0000136
+name: proboscis
+synonym: "haustellum" EXACT []
+is_a: AISM:0000044
+relationship: BFO:0000051 LEPAO:0000134 ! distigalea
+
+[Term]
+id: LEPAO:0000137
+name: subesophageal ganglion nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000138
+name: prothoracic ganglion nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000139
+name: mesothoracic ganglion nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000140
+name: metathoracic ganglion nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000141
+name: abdominal ganglion nerve
+is_a: LEPAO:0000090 ! nerve
+
+[Term]
+id: LEPAO:0000142
+name: hemolymph vascular system
+def: "The anatomical system which is part of the circulatory system and consists of the arterial system and the heart." [] {http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932", creation_date="2023-01-01"}
+synonym: "circulatory system" EXACT []
+xref: OARCS:0000177
+is_a: LEPAO:0000077 ! anatomical system
+
+[Term]
+id: LEPAO:0000143
+name: embryonic tissue
+def: "A portion of tissue that is part of an embryo." [] {creation_date="2023-01-03", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932"}
+xref: UBERON:0005291
+is_a: LEPAO:0000052 ! tissue
+
+[Term]
+id: LEPAO:0000144
+name: neural tube {http://purl.obolibrary.org/obo/AISM_0000171="Arendt, D., & Nubler-Jung, K. (1999). Comparison of early nerve cord development in insects and vertebrates. Development, 126(11), 2309-2325.\n\nhttps://doi.org/10.1242/dev.126.11.2309\n\n\"In insects and vertebrates, the equivalent ‘neural’ body sides give rise to a prominent brain and nerve cord\""}
+def: "The neural tube is the embryo's precursor to the central nervous system, which comprises the brain and nerve cord." [] {creation_date="2023-01-03", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo https://orcid.org/0000-0002-9136-9932"}
+is_a: LEPAO:0000006 ! anatomical entity
+
+[Term]
+id: PATO:0000001
+name: quality
+def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities [database_cross_reference: PATOC:GVG]" []
+
+[Term]
+id: PATO:0000052
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0000117
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0000964
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0000984
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001031
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001543
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0002078
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0040024
+is_a: PATO:0000001 ! quality
+
+[Term]
 id: UBERON:0000955
 comment: This term is considered as a synonym of cephalic ganglia, however, brain is generalizable term.
 is_a: LEPAO:0000006 ! anatomical entity
+relationship: BFO:0000050 LEPAO:0000086 ! nervous system
 
 [Term]
 id: UBERON:0001002
@@ -721,4 +906,8 @@ is_a: LEPAO:0000001 ! muscle tissue
 id: UBERON:6007284
 synonym: "Integument" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Seifert G (1995) Entomologisches Praktikum. 3. Auflage. G. Thieme\nVerlag, Stuttgart, New York: 332 pp.\n\n\"Die Epidermis mit ihren distalen und proximalen nichtzelligen Bildungen sowie akzessorische Zellen des Mixocöl.\"", creation_date="2021-09-10", http://purl.org/dc/elements/1.1/contributor="lagonzalezmo"}
 is_a: LEPAO:0000079 ! organ system subdivision
+
+[Typedef]
+id: RO:0002134
+name: innervates
 
