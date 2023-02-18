@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/luis-gonzalez-m/lepao.svg?branch=master)](https://travis-ci.org/luis-gonzalez-m/lepao)
-[![DOI](https://zenodo.org/badge/330804917.svg)](https://zenodo.org/badge/latestdoi/330804917)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4780615.svg)](https://doi.org/10.5281/zenodo.4780615)
 
 A resource managed by [Luis A. González-Montaña](https://github.com/luis-gonzalez-m) and [Markus Koch](https://github.com/mjklep).
 
@@ -7,7 +7,7 @@ A resource managed by [Luis A. González-Montaña](https://github.com/luis-gonza
 
 The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research. LEPAO is developed in part by BIOfid (The Specialised Information Service Biodiversity Research), www.biofid.de. 
 
-**Suggested citation:** González-Montaña, L. A. & Koch, M, 2021. Lepidoptera Anatomy Ontology (LEPAO) (Version v2021-11-20). GitHub repository. http://doi.org/10.5281/zenodo.4780615.
+**Suggested citation:** González-Montaña, L. A., Girón, J. C., & Koch, M, 2021. Lepidoptera Anatomy Ontology (LEPAO) (Version v2023-02-17). GitHub repository. http://doi.org/10.5281/zenodo.4780615.
 
 More information can be found at http://obofoundry.org/ontology/lepao
 
@@ -20,7 +20,7 @@ The latest version of the ontology can always be found at:
 http://purl.obolibrary.org/obo/lepao.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
-This ontology has been submitted for OBO Foundry review November 21, 2021 (https://github.com/OBOFoundry/OBOFoundry.github.io/issues/1669).
+This ontology was submitted for OBO Foundry review November 21, 2021 and accepted in December 17, 2021 (https://github.com/OBOFoundry/OBOFoundry.github.io/issues/1669).
 
 
 ### Editors' version
@@ -35,4 +35,4 @@ Please use this GitHub repository's [Issue tracker](https://github.com/insect-mo
 
 The development of LEPAO is supported by the German Research Foundation (DFG-projcet MO 412/54-1).
 
-This ontology repository was created using the [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit)
+This ontology repository was created using the [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit).
